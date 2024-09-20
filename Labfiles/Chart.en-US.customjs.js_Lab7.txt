@@ -1,0 +1,18 @@
+function makeChart(rawData) {
+  // transform raw data into plotting array
+  var rData = rawData.value.map(({
+    name,
+    revenue,
+    numberofemployees
+  }) => ({
+    "x": numberofemployees,
+    "y": revenue,
+    "z": (!revenue) ? 1 : numberofemployees / revenue,
+    "name": name
+  }));
+  console.log(rData);
+}
+// retrieve accounts data using portals Web API
+$(document).ready(function() {
+  $.get('/_api/accounts?$select=name,numberofemployees,revenue', makeChart, 'json');
+});

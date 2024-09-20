@@ -1,0 +1,6 @@
+{% extends "Layout 2 Column Wide Left" %}
+
+{% block aside %}
+  <h2>Directory</h2>
+  {% include 'Directory' %}
+{% endblock %}

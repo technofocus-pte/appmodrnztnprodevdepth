@@ -1,0 +1,47 @@
+function makeChart(data) {
+  console.log(data);
+  var rData = data.value.map(({
+    name,
+    revenue,
+    numberofemployees
+  }) => ({
+    "x": numberofemployees,
+    "y": revenue,
+    "z": (!revenue) ? 1 : numberofemployees / revenue,
+    "name": name
+  }));
+  console.log(rData);
+
+  // new code to plot the data
+  Highcharts.chart($('.mychart')[0], {
+    title: {
+      text: "Customers efficiency"
+    },
+    legend: {
+      enabled: false
+    },
+    xAxis: {
+      title: {
+        text: "Number of employees"
+      }
+    },
+    yAxis: {
+      title: {
+        text: "Turnover ($K)"
+      }
+    },
+    tooltip: {
+      pointFormat: '<strong>{point.name}</strong><br/>Employed: {point.x}<br>Turnover ($K): ${point.y}',
+      headerFormat: ''
+    },
+    series: [{
+      type: 'bubble',
+      data: rData
+    }]
+  });
+}
+
+// retrieve accounts data using portals Web API
+$(document).ready(function() {
+  $.get('/_api/accounts?$select=name,numberofemployees,revenue', makeChart, 'json');
+});

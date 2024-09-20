@@ -1,0 +1,17 @@
+{% fetchxml accounts %}
+<fetch>
+  <entity name="account">
+    <attribute name="name" />
+  </entity>
+</fetch>
+{% endfetchxml %}
+
+{% if accounts.global_permission_granted %}
+  <ul>
+    {% for account in accounts.results.entities %} 
+    <li>{{ account.name }}</li>
+    {%- endfor -%}
+  </ul>
+{% else %}
+  <div class="alert alert-warning">You do not have permissions to access the directory.</div>
+{% endif %}
