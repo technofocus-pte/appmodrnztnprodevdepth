@@ -18,18 +18,16 @@
 3.  Enter your **Office 365 admin credential**, check the checkbox to
     **accept the agreement** and click on **Start your free trial**.
 
-> ![](./media/image3.png)
+    ![](./media/image3.png)
 
 4.  Enter **password of your Office 365 tenant id** and then select
     **Sign in**.
 
-> ![A login box with a blue box and red box with black text Description
-> automatically generated](./media/image4.png)
+     ![A login box with a blue box and red box with black text Description automatically generated](./media/image4.png)
 
 5.  Select **Yes** on **Stay signed in?** pop-up window.
 
-> ![A screenshot of a computer error Description automatically
-> generated](./media/image5.png)
+     ![A screenshot of a computer error Description automatically generated](./media/image5.png)
 
 6.  If pop-up appears, provide **Contact Information** as below and then
     select **Submit**.
@@ -40,8 +38,7 @@
 >
 > Phone number: **Your phone number**
 >
-> ![A screenshot of a computer Description automatically
-> generated](./media/image6.png)
+     ![A screenshot of a computer Description automatically generated](./media/image6.png)
 
 7.  You can now see **Home page of Power Apps.** From the environment
     selector, select the developer environment – **Dev One** which is
@@ -51,17 +48,16 @@
 > generated](./media/image7.png)
 
 8.  Open the new tab and go to Power Platform admin center by navigating
-    to <https://admin.powerplatform.microsoft.com> and if required, sign
+    to +++https://admin.powerplatform.microsoft.com+++ and if required, sign
     in using your given Office 365 tenant admin credentials. **Close**
     the **Pop-up window** saying, ‘Welcome to the Power Platform admin
     center’.
 
-> ![](./media/image8.png)
+     ![](./media/image8.png)
 
 9.  From the left navigation pane, select **Environments** and then you
     can see, **Dev One** is your Dataverse environment.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image9.png)
+     ![A screenshot of a computer Description automatically generated](./media/image9.png)
 >
 > **Summary:** In this lab, you acquired Power Apps trial license.
