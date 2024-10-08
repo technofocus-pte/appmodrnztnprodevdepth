@@ -23,7 +23,7 @@
 4.  Enter **password of your Office 365 tenant id** and then select
     **Sign in**.
 
-     ![A login box with a blue box and red box with black text Description automatically generated](./media/image4.png)
+   ![A login box with a blue box and red box with black text Description automatically generated](./media/image4.png)
 
 5.  Select **Yes** on **Stay signed in?** pop-up window.
 
@@ -38,14 +38,13 @@
 >
 > Phone number: **Your phone number**
 >
-     ![A screenshot of a computer Description automatically generated](./media/image6.png)
+    ![A screenshot of a computer Description automatically generated](./media/image6.png)
 
 7.  You can now see **Home page of Power Apps.** From the environment
     selector, select the developer environment – **Dev One** which is
     created for you.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image7.png)
+     ![A screenshot of a computer Description automatically generated](./media/image7.png)
 
 8.  Open the new tab and go to Power Platform admin center by navigating
     to +++https://admin.powerplatform.microsoft.com+++ and if required, sign
