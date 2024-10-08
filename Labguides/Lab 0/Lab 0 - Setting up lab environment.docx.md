@@ -37,8 +37,8 @@
 > Country/region: **United States**
 >
 > Phone number: **Your phone number**
->
-    ![A screenshot of a computer Description automatically generated](./media/image6.png)
+
+![A screenshot of a computer Description automatically generated](./media/image6.png)
 
 7.  You can now see **Home page of Power Apps.** From the environment
     selector, select the developer environment – **Dev One** which is
