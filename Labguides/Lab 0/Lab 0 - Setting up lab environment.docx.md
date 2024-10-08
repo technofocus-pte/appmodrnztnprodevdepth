@@ -1,4 +1,4 @@
-**Lab 0: Setting up lab environment**
+# **Lab 0: Setting up lab environment**
 
 **Estimated Duration:** 7 min
 
@@ -7,14 +7,13 @@
 ### **Task 1: Assign** **Power Apps trial license** 
 
 1.  Open a web browser on your VM and go to
-    +++<https://powerapps.microsoft.com/en-us/free/>+++ .
+    +++https://powerapps.microsoft.com/en-us/free/+++ .
 
-> ![](./media/image1.png)
+     ![](./media/image1.png)
 
 2.  Select **Start free**.
 
-> ![A person with his arms crossed Description automatically
-> generated](./media/image2.png)
+   ![A person with his arms crossed Description automatically generated](./media/image2.png)
 
 3.  Enter your **Office 365 admin credential**, check the checkbox to
     **accept the agreement** and click on **Start your free trial**.
