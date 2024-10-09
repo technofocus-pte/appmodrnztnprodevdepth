@@ -1,5 +1,4 @@
-# **Lab 1 - Build a custom connector for existing API and use that in
-canvas app**
+# **Lab 1 - Build a custom connector for existing API and use that in canvas app**
 
 **Estimated Duration:** 35 min
 
