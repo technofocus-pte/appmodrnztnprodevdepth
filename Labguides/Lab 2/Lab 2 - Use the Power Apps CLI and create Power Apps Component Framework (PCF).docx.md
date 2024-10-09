@@ -25,11 +25,11 @@ component.
 4.  Select **more option (…),** **Terminal** and then select **New
     Terminal**.
 
- **Note:** If you don’t see (… 3 dots), select **hamburger | Terminal | New Terminal.**
+ > **Note:** If you don’t see (… 3 dots), select **hamburger | Terminal | New Terminal.**
 
-    ![](./media/image4.png)
+![](./media/image4.png)
 
-    ![](./media/image5.png)
+![](./media/image5.png)
 
 5.  Run the pac command to see what commands are available:
 
