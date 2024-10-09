@@ -27,9 +27,9 @@ component.
 
  > **Note:** If you don’t see (… 3 dots), select **hamburger | Terminal | New Terminal.**
 
-![](./media/image4.png)
+ ![](./media/image4.png)
 
-![](./media/image5.png)
+ ![](./media/image5.png)
 
 5.  Run the pac command to see what commands are available:
 
@@ -52,7 +52,7 @@ component.
 > the terminal by default and are handled by Visual Studio Code
 > instead’, then select **Configure Terminal Settings**.
 
-     ![A black background with white text Description automatically generated](./media/image10.png)
+ ![A black background with white text Description automatically generated](./media/image10.png)
 
 7.  You can see, what options admin has.
 
@@ -163,7 +163,7 @@ component.
 
 > **Note:** On the pop-up asking, ‘Do you want to allow untrusted files in this window’, select **Allow**.
 
-     ![A screenshot of a computer error Description automatically generated](./media/image29.png)
+ ![A screenshot of a computer error Description automatically generated](./media/image29.png)
 
 13. Paste the following two variables inside the export.
 
