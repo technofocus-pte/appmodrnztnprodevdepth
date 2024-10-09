@@ -163,7 +163,7 @@ component.
 
 > **Note:** On the pop-up asking, ‘Do you want to allow untrusted files in this window’, select **Allow**.
 
- ![A screenshot of a computer error Description automatically generated](./media/image29.png)
+   ![A screenshot of a computer error Description automatically generated](./media/image29.png)
 
 13. Paste the following two variables inside the export.
 
