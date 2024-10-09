@@ -161,15 +161,15 @@ component.
 
      ![](./media/image28.png)
 
-> **Note:** On the pop-up asking, ‘Do you want to allow untrusted files in this window’, select **Allow**.
+     **Note:** On the pop-up asking, ‘Do you want to allow untrusted files in this window’, select **Allow**.
 
-   ![A screenshot of a computer error Description automatically generated](./media/image29.png)
+    ![A screenshot of a computer error Description automatically generated](./media/image29.png)
 
-13. Paste the following two variables inside the export.
+14. Paste the following two variables inside the export.
 
      ![A screen shot of a computer Description automatically generated](./media/image30.png)
 
-14. Paste the following inside the **init()** function to create the
+15. Paste the following inside the **init()** function to create the
     HTML controls and set the label value.
 
      +++this.label = document.createElement("input");+++
@@ -186,11 +186,11 @@ component.
 
      ![A screenshot of a computer program Description automatically generated](./media/image31.png)
 
-15. To save the file, go to **File** tab and select **Save**.
+16. To save the file, go to **File** tab and select **Save**.
 
      ![A screenshot of a computer program Description automatically generated](./media/image32.png)
 
-16. Go to the terminal and input the following command and then enter.
+17. Go to the terminal and input the following command and then enter.
     This will start the test harness with the latest code as shown in
     the thisrd screenshot of this step.
 
