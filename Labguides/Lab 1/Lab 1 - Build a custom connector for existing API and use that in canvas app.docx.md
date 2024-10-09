@@ -10,7 +10,7 @@ canvas app and how to use the connector in the canvas app.
 
 To review the API, follow these steps:
 
-1.  Go to +++https://contosoinvoicing.azurewebsites.net/+++.
+1.  Go to +++**https://contosoinvoicing.azurewebsites.net/**+++.
 
 2.  To select the documentation link, click on **here** next to ‘You can
     find the API documentation’.
