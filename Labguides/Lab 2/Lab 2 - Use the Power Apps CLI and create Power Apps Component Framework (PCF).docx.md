@@ -198,12 +198,11 @@ component.
 
      ![](./media/image33.png)
 
-> **Note:** If you receive message as Windows Defender Firewall has
-> blocked some features, select Allow access.
+> **Note:** If you receive message as Windows Defender Firewall has blocked some features, select Allow access.
 
-     ![A screenshot of a computer security alert Description automatically generated](./media/image34.png)
+ ![A screenshot of a computer security alert Description automatically generated](./media/image34.png)
 
-     ![A screenshot of a computer Description automatically generated](./media/image35.png)
+ ![A screenshot of a computer Description automatically generated](./media/image35.png)
 
 17. The test harness is effective to use early in the project to see
     what your control looks like visually without having to deploy it to
