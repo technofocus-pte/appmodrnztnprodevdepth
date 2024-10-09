@@ -25,7 +25,7 @@ component.
 4.  Select **more option (…),** **Terminal** and then select **New
     Terminal**.
 
-> **Note:** If you don’t see (… 3 dots), select **hamburger | Terminal | New Terminal.**
+ **Note:** If you don’t see (… 3 dots), select **hamburger | Terminal | New Terminal.**
 
     ![](./media/image4.png)
 
