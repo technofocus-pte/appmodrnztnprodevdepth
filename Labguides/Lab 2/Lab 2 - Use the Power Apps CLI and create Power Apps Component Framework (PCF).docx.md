@@ -27,9 +27,9 @@ component.
 
 > **Note:** If you don’t see (… 3 dots), select **hamburger | Terminal | New Terminal.**
 
-     ![](./media/image4.png)
+    ![](./media/image4.png)
 
-     ![](./media/image5.png)
+    ![](./media/image5.png)
 
 5.  Run the pac command to see what commands are available:
 
@@ -161,14 +161,13 @@ component.
 
      ![](./media/image28.png)
 
-> **Note:** On the pop-up asking, ‘Do you want to allow untrusted files
-> in this window’, select **Allow**.
+> **Note:** On the pop-up asking, ‘Do you want to allow untrusted files in this window’, select **Allow**.
 
      ![A screenshot of a computer error Description automatically generated](./media/image29.png)
 
 13. Paste the following two variables inside the export.
 
- ![A screen shot of a computer Description automatically generated](./media/image30.png)
+     ![A screen shot of a computer Description automatically generated](./media/image30.png)
 
 14. Paste the following inside the **init()** function to create the
     HTML controls and set the label value.
