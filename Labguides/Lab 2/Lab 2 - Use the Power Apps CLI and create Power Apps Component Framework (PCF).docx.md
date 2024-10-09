@@ -25,13 +25,13 @@ component.
 4.  Select **more option (…),** **Terminal** and then select **New
     Terminal**.
 
- > **Note:** If you don’t see (… 3 dots), select **hamburger | Terminal | New Terminal.**
+   **Note:** If you don’t see (… 3 dots), select **hamburger | Terminal | New Terminal.**
+   
+   ![](./media/image4.png)
+   
+   ![](./media/image5.png)
 
- ![](./media/image4.png)
-
- ![](./media/image5.png)
-
-5.  Run the pac command to see what commands are available:
+6.  Run the pac command to see what commands are available:
 
      +++pac+++
 
@@ -41,7 +41,7 @@ component.
 
      ![Screenshot showing a list of commands.](./media/image8.png)
 
-6.  You can enter pac and then a command to see what options it has, for
+7.  You can enter pac and then a command to see what options it has, for
     example, try the following:
 
      +++pac admin+++
