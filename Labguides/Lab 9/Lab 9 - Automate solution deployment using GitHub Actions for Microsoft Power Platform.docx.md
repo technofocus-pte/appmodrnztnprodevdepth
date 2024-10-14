@@ -313,7 +313,7 @@ The client secret is now securely stored as a GitHub secret.
 
      ![A screenshot of a computer Description automatically generated](./media/image54.png)
 
-6.  Update <ENVIRONMENTURL> on line no 28 with the URL for the
+6.  Update **ENVIRONMENTURL** on line no 28 with the URL for the
     development environment you want to export from.
 
      ![Rename and replace content.](./media/image55.png)
@@ -328,7 +328,7 @@ The client secret is now securely stored as a GitHub secret.
 
      ![](./media/image57.png)
 
-8.  Update <APPID> and <TENANT ID> with your values. To get these
+8.  Update **APPID** and **TENANT ID** with your values. To get these
     two values, go to Azure portal and then select **Home** \>
     **Microsoft Entra ID** \> **App** registration then select **All
     applications** tab and then select **Mytestingapp**.
