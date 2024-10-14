@@ -27,8 +27,7 @@ To review the API, follow these steps:
 
      ![A screenshot of a computer Description automatically generated](./media/image3.png)
 
-6.  The following image shows an example of the OpenAPI version of what
-    was shown on the documentation page. Right-click and select **Save
+6.  The following image shows an example of the OpenAPI version. Right-click and select **Save
     as**.
 
      ![Screenshot of an arrow pointing to the save as button.](./media/image4.png)
