@@ -167,9 +167,13 @@ component.
 
 14. Paste the following two variables inside the export.
 
+    +++private label: HTMLInputElement;+++
+
+    +++private _container: HTMLDivElement;+++
+
      ![A screen shot of a computer Description automatically generated](./media/image30.png)
 
-15. Paste the following inside the **init()** function to create the
+16. Paste the following inside the **init()** function to create the
     HTML controls and set the label value.
 
      +++this.label = document.createElement("input");+++
@@ -186,11 +190,11 @@ component.
 
      ![A screenshot of a computer program Description automatically generated](./media/image31.png)
 
-16. To save the file, go to **File** tab and select **Save**.
+17. To save the file, go to **File** tab and select **Save**.
 
      ![A screenshot of a computer program Description automatically generated](./media/image32.png)
 
-17. Go to the terminal and input the following command and then enter.
+18. Go to the terminal and input the following command and then enter.
     This will start the test harness with the latest code as shown in
     the thisrd screenshot of this step.
 
