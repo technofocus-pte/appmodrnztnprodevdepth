@@ -349,7 +349,7 @@ Now that your code is ready, you need to upload it into your solution.
      ![](./media/image45.png)
 
 13. Type the name of the function in the **Function** field. In this
-    case **Example.attributeOnChange**.
+    case +++**Example.attributeOnChange**+++.
 
      ![](./media/image46.png)
 
@@ -385,7 +385,7 @@ effect in your model-driven apps instance.
 
 To test your code:
 
-1.  Navigate to Power Apps using +++<https://make.powerapps.com/>+++.
+1.  Navigate to Power Apps using +++**https://make.powerapps.com/**+++.
     Make sure you are in **Dev One** environment.
 
      ![](./media/image1.png)
