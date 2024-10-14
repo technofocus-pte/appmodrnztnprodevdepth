@@ -9,7 +9,7 @@ a page to render data from Microsoft Dataverse as a chart.
 
 1.  Go to Power Pages using
     +++**https://make.powerpages.microsoft.com/**+++. Make sure that you
-    are in **Dev One** environment.
+    are in **Dev One** environment. Select **Get started**.
 
      ![](./media/image1.png)
 
@@ -58,8 +58,8 @@ a page to render data from Microsoft Dataverse as a chart.
 
 To create site settings, follow these steps.
 
-1.  Select the ellipsis (**...**) menu and then select **Portal
-    management**.
+1.  Select the ellipsis (**...**) menu and then select **Power Pages
+    Management**.
 
      The Portal Management app will open in a new tab.
 
@@ -127,7 +127,7 @@ To create table permissions, follow these steps.
 
     &nbsp;
 
-    - **Table** - +++Account (account)+++
+    - **Table** - Select Account 
 
     &nbsp;
 
@@ -360,97 +360,95 @@ non-profit use) to create a bubble chart based on the data.
     
     ```    
 
-    > function makeChart(data) {
-    >
-    > console.log(data);
-    >
-    > var rData = data.value.map(({
-    >
-    > name,
-    >
-    > revenue,
-    >
-    > numberofemployees
-    >
-    > }) =\> ({
-    >
-    > "x": numberofemployees,
-    >
-    > "y": revenue,
-    >
-    > "z": (!revenue) ? 1 : numberofemployees / revenue,
-    >
-    > "name": name
-    >
-    > }));
-    >
-    > console.log(rData);
-    >
-    > // new code to plot the data
-    >
-    > Highcharts.chart($('.mychart')\[0\], {
-    >
-    > title: {
-    >
-    > text: "Customers efficiency"
-    >
-    > },
-    >
-    > legend: {
-    >
-    > enabled: false
-    >
-    > },
-    >
-    > xAxis: {
-    >
-    > title: {
-    >
-    > text: "Number of employees"
-    >
-    > }
-    >
-    > },
-    >
-    > yAxis: {
-    >
-    > title: {
-    >
-    > text: "Turnover ($K)"
-    >
-    > }
-    >
-    > },
-    >
-    > tooltip: {
-    >
-    > pointFormat: '\<strong\>{point.name}\</strong\>\<br/\>Employed:
-    > {point.x}\<br\>Turnover ($K): ${point.y}',
-    >
-    > headerFormat: ''
-    >
-    > },
-    >
-    > series: \[{
-    >
-    > type: 'bubble',
-    >
-    > data: rData
-    >
-    > }\]
-    >
-    > });
-    >
-    > }
-    >
-    > // retrieve accounts data using portals Web API
-    >
-    > $(document).ready(function() {
-    >
-    > $.get('/\_api/accounts?$select=name,numberofemployees,revenue',
-    > makeChart, 'json');
-    >
-    > });
+     function makeChart(data) {
+    
+     console.log(data);
+    
+     var rData = data.value.map(({
+    
+     name,
+    
+     revenue,
+    
+     numberofemployees
+    
+     }) => ({
+    
+     "x": numberofemployees,
+    
+     "y": revenue,
+    
+     "z": (!revenue) ? 1 : numberofemployees / revenue,
+    
+     "name": name
+
+     }));
+    
+     console.log(rData);
+    
+     // new code to plot the data
+    
+     Highcharts.chart($('.mychart')[0], {
+    
+     title: {
+    
+     text: "Customers efficiency"
+    
+     },
+    
+     legend: {
+    
+     enabled: false
+    
+     },
+    
+     xAxis: {
+    
+         title: {
+    
+             text: "Number of employees"
+    
+     }
+    
+     },
+    
+     yAxis: {
+    
+         title: {
+
+             text: "Turnover ($K)"
+    
+     }
+    
+     },
+    
+     tooltip: {
+    
+     pointFormat:'<strong>{point.name}</strong><br/>Employed: {point.x}<br>Turnover ($K): ${point.y}',
+
+     headerFormat: ''
+    
+     },
+    
+     series: [{
+    
+     type: 'bubble',
+    
+         data: rData
+    
+     }]
+    
+     });
+    
+     }
+    
+     // retrieve accounts data using portals Web API
+    
+     $(document).ready(function() {
+    
+        $.get('/_api/accounts?$select=name,numberofemployees,revenue', makeChart, 'json');
+    
+     });
 
     ```
 
