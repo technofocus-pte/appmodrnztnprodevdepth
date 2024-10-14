@@ -36,28 +36,30 @@
 8.  On the **App registrations** page, enter your application's
     registration information as described in the table.
 
-    [TABLE]
+    **Name** - +++Mytestingapp+++
+
+    **Supported account types** - Select the Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) option.
 
      ![A screenshot of a computer application Description automatically generated](./media/image7.png)
 
-9.  Select **Register** to create the application registration.
+10.  Select **Register** to create the application registration.
 
      ![A screenshot of a computer Description automatically generated](./media/image8.png)
 
-10. The app registration overview page is shown. Add a client secret by
+11. The app registration overview page is shown. Add a client secret by
     selecting the **Certificates & secrets** in the left navigation
     pane. Select **Client secrets** tab and then select **+New client
     secret**.
 
      ![A screenshot of a computer Description automatically generated](./media/image9.png)
 
-11. Add a given **description** for your client secret – **My sample
-    client secret**. Select an **expiration** for the secret as
+12. Add a given **description** for your client secret – +++**My sample
+    client secret**+++. Select an **expiration** for the secret as
     **Recommended: 180 days (6 months)** and then select **Add**.
 
      ![A screenshot of a computer Description automatically generated](./media/image10.png)
 
-12. Save the **secret's value and ID** in the notepad for use in your
+13. Save the **secret's value and ID** in the notepad for use in your
     client application code. This secret value is never displayed
     again after you leave this page.
 
@@ -123,7 +125,7 @@ Follow the steps below to build a model-driven app.
 1.  In your browser, navigate
     to Power Apps portal using +++**https://make.powerapps.com**+++ and
     sign in with your credentials. Click the environment selector
-    dropdown in the header and select your development environment.
+    dropdown in the header and select your development environment - **Dev One**.
 
      ![](./media/image20.png)
 
@@ -132,13 +134,13 @@ Follow the steps below to build a model-driven app.
 
      ![A screenshot of a computer Description automatically generated](./media/image21.png)
 
-3.  Enter the solution’s **Display name** as **GitHub Lab**, **Name** –
-    **GitHubLab**. Select **+New publisher** under Publisher.
+3.  Enter the solution’s **Display name** as +++**GitHub Lab**+++, **Name** –
+    +++**GitHubLab**+++. Select **+New publisher** under Publisher.
 
      ![](./media/image22.png)
 
-4.  For the purposes of this lab, enter **'GitHub Lab'** for
-    the **display name**, **'GitHubLab'** for **name**, and **‘gitlab’**
+4.  For the purposes of this lab, enter +++**GitHub Lab**+++ for
+    the **display name**, +++**GitHubLab**+++ for **name**, and +++**gitlab**+++
     as **prefix**, and then choose **Save** and **Close**.
 
      ![A screenshot of a computer Description automatically generated](./media/image23.png)
@@ -156,7 +158,7 @@ Follow the steps below to build a model-driven app.
 
      ![](./media/image25.png)
 
-7.  Enter a **display name – Time Off Request**, plural name will be
+7.  Enter a **display name** – +++**Time Off Request**+++, plural name will be
     generated for you. Click **Save** to create the table.
 
      ![](./media/image26.png)
@@ -171,7 +173,7 @@ Follow the steps below to build a model-driven app.
 
      ![A screenshot of a computer Description automatically generated](./media/image28.png)
 
-10. Enter an app name – **Time Off Requests**, then click
+10. Enter an app name – +++**Time Off Requests**+++, then click
     the **Create** button.
 
      ![A screenshot of a computer Description automatically generated](./media/image29.png)
@@ -255,7 +257,7 @@ task and got to the next task.
 
      ![Create a new repository](./media/image44.png)
 
-2.  Create your new repository and name it '**poweractionslab**'. Make
+2.  Create your new repository and name it +++**poweractionslab**+++. Make
     sure you select **Add a README file** to initiate the repo and
     choose **Create repository**.
 
@@ -274,7 +276,7 @@ task and got to the next task.
 
      ![A screenshot of a computer Description automatically generated](./media/image48.png)
 
-6.  On the Secrets page, name the secret '**PowerPlatformSPN**'. Use the
+6.  On the Secrets page, name the secret +++**PowerPlatformSPN**+++. Use the
     client secret value from the application registration created in
     Microsoft Entra (Which you have saved in notepad) and enter it into
     the **Secret** field, and then select **Add secret**. The client
@@ -307,11 +309,11 @@ The client secret is now securely stored as a GitHub secret.
 
      ![A screenshot of a computer Description automatically generated](./media/image53.png)
 
-5.  **Rename** the file to **export-and-branch-solution.yml**.
+5.  **Rename** the file to +++**export-and-branch-solution.yml**+++.
 
      ![A screenshot of a computer Description automatically generated](./media/image54.png)
 
-6.  Update \<ENVIRONMENTURL\> on line no 28 with the URL for the
+6.  Update <ENVIRONMENTURL> on line no 28 with the URL for the
     development environment you want to export from.
 
      ![Rename and replace content.](./media/image55.png)
@@ -326,7 +328,7 @@ The client secret is now securely stored as a GitHub secret.
 
      ![](./media/image57.png)
 
-8.  Update \<APPID\> and \<TENANT ID\> with your values. To get these
+8.  Update <APPID> and <TENANT ID> with your values. To get these
     two values, go to Azure portal and then select **Home** \>
     **Microsoft Entra ID** \> **App** registration then select **All
     applications** tab and then select **Mytestingapp**.
@@ -340,7 +342,7 @@ The client secret is now securely stored as a GitHub secret.
      ![](./media/image60.png)
 
 10. On the line no 12 of the code, change the default value ALMLab to
-    GitHubLab which is our solution name in this case. Make sure you
+    +++**GitHubLab**+++ which is our solution name in this case. Make sure you
     don’t leave any space and write it correctly as given. If you have
     given a different name to your solution then write that here.
 
@@ -395,11 +397,11 @@ The client secret is now securely stored as a GitHub secret.
 
 4.  After the workflow has completed, validate that a new branch has
     been created with the solution unpacked to the
-    **solutions/GitHubLab** folder. Navigate to the** *Code* **tab. 
+    **solutions/GitHubLab** folder. Navigate to the **Code** tab. 
 
      ![A screenshot of a computer Description automatically generated](./media/image67.png)
 
-5.  Expand the** Branches **drop-down.
+5.  Expand the **Branches** drop-down.
 
      ![](./media/image68.png)
 
@@ -414,13 +416,13 @@ The client secret is now securely stored as a GitHub secret.
      ![A screenshot of a computer Description automatically generated](./media/image70.png)
 
 8.  To create a Pull request to merge the changes into the main
-    branch, Click** Contribute** and in the flyout click** ***Open Pull
-    request*.
+    branch, Click **Contribute** and in the flyout click **Open Pull
+    request**.
 
      ![A screenshot of a computer Description automatically generated](./media/image71.png)
 
-9.  On the *Open a Pull request* screen, keep the title as is
-    then click** Create pull request*.***
+9.  On the **Open a Pull request** screen, keep the title as is
+    then click **Create pull request**.
 
      ![A screenshot of a computer Description automatically generated](./media/image72.png)
 
@@ -431,11 +433,11 @@ The client secret is now securely stored as a GitHub secret.
      ![A screenshot of a computer Description automatically generated](./media/image73.png)
 
 11. This confirmation means that the changes can be merged into the main
-    branch automatically. Click** Merge pull request.** 
+    branch automatically. Click **Merge pull request**. 
 
      ![A screenshot of a computer Description automatically generated](./media/image74.png)
 
-12. Click** Confirm merge**.
+12. Click **Confirm merge**.
 
      ![A screenshot of a computer Description automatically generated](./media/image75.png)
 
