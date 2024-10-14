@@ -54,7 +54,7 @@ tool**
 
      ![](./media/image8.png)
 
-2.  Check the checkbox for **Display list of available organizations**.
+2.  Select Office 365. Check the checkbox for **Display list of available organizations**.
 
      ![A screenshot of a computer Description automatically generated](./media/image9.png)
 
