@@ -27,12 +27,11 @@ To review the API, follow these steps:
 
      ![A screenshot of a computer Description automatically generated](./media/image3.png)
 
-6.  The following image shows an example of the OpenAPI version. Right-click and select **Save
-    as**.
+6.  The following image shows an example of the OpenAPI version. Right-click and select **Select all**. Again right-click and select **Copy**. 
 
      ![Screenshot of an arrow pointing to the save as button.](./media/image4.png)
 
-7.  Save the file locally on VM’s Desktop. You'll use this file later in
+7.  Open Notepad on your VM, paste the code into the Notepad and save the file with the name **swagger.json**, locally on VM’s Desktop. You'll use this file later in
     the exercise.
 
 8.  Close the definition browser tab or window.
@@ -41,7 +40,7 @@ To review the API, follow these steps:
 
      ![A screenshot of a computer Description automatically generated](./media/image5.png)
 
-10. Copy and save your API key to the notepad on your VM because you'll
+10. Open other new Notepad document. Copy and save your API key to the notepad on your VM because you'll
     need it later.
 
      ![](./media/image6.png)
@@ -82,12 +81,10 @@ To create a new solution, follow these steps:
     Name, +++**contoso**+++ for Prefix, and then select **Save**.
 
      ![A screenshot of a computer Description automatically generated](./media/image13.png)
->
-> **Note:** If you get an error message as ‘A record with matching key
-> values already exists’, ignore it and close the ‘New publisher’
-> window.
->
-     ![](./media/image14.png)
+    
+     **Note:** If you get an error message as ‘A record with matching key values already exists’, ignore it and close the ‘New publisher’ window.
+
+    ![](./media/image14.png)
 
 6.  Now, on **New solution** window,
     select **Contoso** for **Publisher**, and then select **Create**.
@@ -166,7 +163,7 @@ To import the OpenAPI definition, follow these steps:
 
 6.  Fill in the host URL
     as +++**contosoinvoicingtest.azurewebsites.net**+++ and then
-    select **Security**.
+    select **Security** from the bottom right corner.
 
      ![A screenshot of a computer Description automatically generated](./media/image27.png)
 
@@ -198,7 +195,7 @@ To review and adjust definitions, follow these steps:
 
      ![A screenshot of a phone Description automatically generated](./media/image32.png)
 
-6.  Enter **Get Invoice** as the **Summary** to improve the usability.
+6.  Enter +++**Get Invoice**++ as the **Summary** to improve the usability.
 
      ![A screenshot of a computer Description automatically generated](./media/image33.png)
 
@@ -212,7 +209,7 @@ To review and adjust definitions, follow these steps:
 
      ![A screenshot of a computer Description automatically generated](./media/image35.png)
 
-9.  Enter **Pay an invoice** as the **Description**.
+9.  Enter +++**Pay an invoice**+++ as the **Description**.
 
      ![A screenshot of a computer Description automatically generated](./media/image36.png)
 
@@ -275,7 +272,7 @@ connector you created to display a list of invoices.
     are in the **Dev One** environment.
 
      ![](./media/image47.png)
->
+
 > **Note:** If the portal is not already opened, navigate
 > to +++**https://make.powerapps.com/**+++ and make sure that you are in
 > the **Dev One** environment.
@@ -290,7 +287,7 @@ connector you created to display a list of invoices.
 
      ![](./media/image49.png)
 
-4.  Enter **Contoso invoicing app** for App name, select **Phone** for
+4.  Enter +++**Contoso invoicing app**+++ for App name, select **Phone** for
     Format, and then select **Create**.
 
      ![A screenshot of a computer Description automatically generated](./media/image50.png)
@@ -308,7 +305,7 @@ connector you created to display a list of invoices.
 
      ![A screenshot of a computer Description automatically generated](./media/image53.png)
 
-8.  Select the **+ Add a connector**.
+8.  Select the **+ Add a connection**.
 
      ![A screenshot of a computer Description automatically generated](./media/image54.png)
 
@@ -335,7 +332,7 @@ connector you created to display a list of invoices.
 
 14. Set the **Items** to the value below.
 
-> +++**ContosoInvoicing.ListInvoices().invoices**+++
+     +++**ContosoInvoicing.ListInvoices().invoices**+++
 
      ![A screenshot of a computer Description automatically generated](./media/image60.png)
 
@@ -359,6 +356,8 @@ connector you created to display a list of invoices.
 19. The gallery should now look like the image below.
 
      ![A screenshot of a computer Description automatically generated](./media/image65.png)
+
+20. Select **Save** icon from upper right corner to save the app.
 
 **Summary:** In this lab, you have learnt to create custom connector for
 an existing API, to import the API definition and to use that connector
