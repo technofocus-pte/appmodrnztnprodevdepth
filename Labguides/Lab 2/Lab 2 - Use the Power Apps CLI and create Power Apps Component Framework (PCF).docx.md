@@ -48,11 +48,11 @@ component.
 
      ![](./media/image9.png)
 
-> **Note:** If you see the pop-up saying, ‘Some keybindings don’t got to
-> the terminal by default and are handled by Visual Studio Code
-> instead’, then select **Configure Terminal Settings**.
+     **Note:** If you see the pop-up saying, ‘Some keybindings don’t got to
+     the terminal by default and are handled by Visual Studio Code
+     instead’, then select **Configure Terminal Settings**.
 
- ![A black background with white text Description automatically generated](./media/image10.png)
+     ![A black background with white text Description automatically generated](./media/image10.png)
 
 7.  You can see, what options admin has.
 
@@ -76,7 +76,7 @@ component.
     command to establish a connection from the CLI and sign into your
     test environment when prompted.
 
-     +++pac auth create --name Lab --url **\<Your Instance URL\>**+++
+     +++pac auth create --name Lab --url **<Your Instance URL>**+++
 
      ![](./media/image14.png)
 
