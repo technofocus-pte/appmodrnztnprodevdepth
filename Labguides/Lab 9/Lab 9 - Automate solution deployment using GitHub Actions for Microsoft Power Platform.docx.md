@@ -1,5 +1,4 @@
-# **Lab 9: Automate solution deployment using GitHub Actions for Microsoft
-Power Platform**
+# **Lab 9: Automate solution deployment using GitHub Actions for Microsoft Power Platform**
 
 ### **Task 1: Create the app registration**
 
