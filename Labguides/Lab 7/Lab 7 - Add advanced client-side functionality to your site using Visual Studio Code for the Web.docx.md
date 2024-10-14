@@ -219,44 +219,44 @@ transforms the data, follow these steps:
 
     ```
 
-    > function makeChart(rawData) {
-    >
-    > // transform raw data into plotting array
-    >
-    > var rData = rawData.value.map(({
-    >
-    > name,
-    >
-    > revenue,
-    >
-    > numberofemployees
-    >
-    > }) =\> ({
-    >
-    > "x": numberofemployees,
-    >
-    > "y": revenue,
-    >
-    > "z": (!revenue) ? 1 : numberofemployees / revenue,
-    >
-    > "name": name
-    >
-    > }));
-    >
-    > console.log(rData);
-    >
-    > }
-    >
-    > // retrieve accounts data using portals Web API
-    >
-    > $(document).ready(function() {
-    >
-    > $.get('/\_api/accounts?$select=name,numberofemployees,revenue',
-    > makeChart, 'json');
-    >
-    > });
+     function makeChart(rawData) {
+
+     // transform raw data into plotting array
+    
+     var rData = rawData.value.map(({
+    
+    
+     revenue,
+    
+     numberofemployees
+    
+     }) => ({
+    
+     "x": numberofemployees,
+    
+     "y": revenue,
+    
+     "z": (!revenue) ? 1 : numberofemployees / revenue,
+    
+     "name": name
+    
+     }));
+    
+     console.log(rData);
+    
+     }
+    
+     // retrieve accounts data using portals Web API
+    
+     $(document).ready(function() {
+    
+     $.get('/_api/accounts?$select=name,numberofemployees,revenue', makeChart, 'json');
+    
+     });
 
     ```
+
+    **Note:** If you see extra braces (in red colour) at the end of the code, delete them.
 
 13. Press the **Ctrl + S** keyboard shortcut (**⌘ + S** on Mac) to save
     the file.
@@ -326,10 +326,8 @@ non-profit use) to create a bubble chart based on the data.
 
     ```
 
-    > \<script src="https://code.highcharts.com/highcharts.js"\>\</script\>
-    >
-    > \<script
-    > src="https://code.highcharts.com/highcharts-more.js"\>\</script\>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
 
     ```
 
@@ -461,15 +459,13 @@ non-profit use) to create a bubble chart based on the data.
 
      ![A screenshot of a computer program Description automatically generated](./media/image44.png)
 
-13. Insert the following code into the inner \<div\> element:
+13. Insert the following code into the inner <div> element:
 
     ```
 
-    > \<figure\>
-    >
-    > \<div class="mychart"\>\</div\>
-    >
-    > \</figure\>
+    <figure>
+        <div class="mychart"></div>
+    </figure>
 
     ```
 
