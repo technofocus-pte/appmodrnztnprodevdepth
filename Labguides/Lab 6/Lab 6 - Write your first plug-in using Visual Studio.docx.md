@@ -87,16 +87,16 @@ a phone number.
 
      ![](./media/image15.png)
 
-3.  Select **Class Library (.NET Framework)** and select **Next**.
+3.  Type **Class Library** in the search box and then select **Class Library (.NET Framework)** and select **Next**.
 
      ![A screenshot of a computer Description automatically generated](./media/image16.png)
 
-4.  Enter **D365PackageProject** for **Project Name**, select a location
+4.  Enter +++**D365PackageProject**+++ for **Project Name**, select a location
     to save the project,
 
      ![](./media/image17.png)
 
-5.  select **.NET Framework 4.7.1** for **Framework**, and then
+5.  Check the checkbox for **Place the solution and project in the same directory**. Select **.NET Framework 4.7.1** for **Framework**, and then
     select **Create**.
 
      ![](./media/image18.png)
@@ -136,7 +136,7 @@ a phone number.
 
      ![A screenshot of a computer Description automatically generated](./media/image26.png)
 
-14. Name the new class **PreOperationFormatPhoneCreateUpdate** and
+14. Name the new class +++**PreOperationFormatPhoneCreateUpdate**+++ and
     select **Add**.
 
      ![](./media/image27.png)
@@ -202,7 +202,7 @@ a phone number.
 
     ```
 
-    var entity = context.InputParameters\["Target"\] as Entity;
+    var entity = context.InputParameters["Target"] as Entity;
 
      if (!entity.Attributes.Contains("telephone1"))
 
@@ -218,9 +218,9 @@ a phone number.
 
     ```
 
-     string phoneNumber = (string)entity\["telephone1"\];
+     string phoneNumber = (string)entity["telephone1"];
 
-     var formattedNumber = Regex.Replace(phoneNumber, @"\[^\d\]", "");
+     var formattedNumber = Regex.Replace(phoneNumber, @"[^\d]", "");
 
     ```
 
@@ -229,7 +229,7 @@ a phone number.
 5.  Set telephone1 to the formatted phone number. Add the following
     snippet to the Execute method.
 
-     +++entity\["telephone1"\] = formattedNumber;+++
+     +++entity["telephone1"] = formattedNumber;+++
 
      ![A screen shot of a computer program Description automatically generated](./media/image36.png)
 
@@ -241,7 +241,7 @@ a phone number.
 
      ![A screenshot of a computer Description automatically generated](./media/image38.png)
 
-7.  Select the **Signing** tab and select \<**New…\>** Key File.
+7.  Select the **Signing** tab from left pane and select \<**New…\>** Key File.
 
      ![A screenshot of a computer Description automatically generated](./media/image39.png)
 
