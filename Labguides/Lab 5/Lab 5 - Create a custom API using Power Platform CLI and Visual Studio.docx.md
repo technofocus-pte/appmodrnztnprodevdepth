@@ -76,7 +76,7 @@ step in a Power Automate flow.
 
      ![A screenshot of a computer Description automatically generated](./media/image13.png)
 
-14. Search for **System.Text.RegularExpressions** and
+14. Select **Browse** and then search for **System.Text.RegularExpressions** and
     select **Install**.
 
      ![](./media/image14.png)
@@ -106,7 +106,7 @@ step in a Power Automate flow.
     parameters passed on the custom API invocation.
 
      ```
-     string input = (string)context.InputParameters\["StringIn"\];
+     string input = (string)context.InputParameters["StringIn"];
 
      string pattern = (string)context.InputParameters\["Pattern"\];
 
@@ -381,36 +381,36 @@ step in a Power Automate flow.
     email pattern.
     Other [*examples*](https://regexlib.com/DisplayPatterns.aspx/) are
     available.
-
-     +++^\w+@\[a-zA-Z\_\]+?\\\[a-zA-Z\]{2,3}$+++
+  
+    +++^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$+++
 
     ![A screenshot of a computer Description automatically generated](./media/image68.png)
 
-8.  Your flow should look like the following.
+9.  Your flow should look like the following.
 
      ![A screenshot of a computer Description automatically generated](./media/image69.png)
 
-9.  Select **Save**.
+10.  Select **Save**.
 
      ![A screenshot of a computer Description automatically generated](./media/image70.png)
 
-10. After save is complete, select **Test**.
+11. After save is complete, select **Test**.
 
      ![A screenshot of a computer Description automatically generated](./media/image71.png)
 
-11. Select **Manually**, then select **Test**.
+12. Select **Manually**, then select **Test**.
 
      ![A screenshot of a phone Description automatically generated](./media/image72.png)
 
-12. Select **Run flow**.
+13. Select **Run flow**.
 
      ![A white background with black dots Description automatically generated](./media/image73.png)
 
-13. Select **Done**.
+14. Select **Done**.
 
      ![A screenshot of a phone Description automatically generated](./media/image74.png)
 
-14. After your flow completes, select the **Perform an unbound
+15. After your flow completes, select the **Perform an unbound
     action** to expand and see results.
 
      ![A screenshot of a computer Description automatically generated](./media/image75.png)
