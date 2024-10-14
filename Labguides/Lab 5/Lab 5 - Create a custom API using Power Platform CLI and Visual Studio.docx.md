@@ -211,7 +211,7 @@ step in a Power Automate flow.
 ### **Task 3: Create the custom API**
 
 1.  Navigate to Power Apps maker portal
-    using +++<https://make.powerapps.com/>+++ and make sure you are in
+    using +++**https://make.powerapps.com/**+++ and make sure you are in
     the **Dev One** environment.
 
 2.  Select **Solutions** on the left navigation. Select **+ New
