@@ -8,7 +8,7 @@ To complete this lab, make sure you have an Azure subscription. If you don't hav
 Create your Azure Service Bus namespace and message queue with the
 following steps.
 
-1.  Sign in to the Azure portal using +++**https://portal.azure.com/**++
+1.  Sign in to the Azure portal using +++**https://portal.azure.com/**+++
     with your Office 365 tenant credentials.
 
 2.  Select **+ Create a resource**.
