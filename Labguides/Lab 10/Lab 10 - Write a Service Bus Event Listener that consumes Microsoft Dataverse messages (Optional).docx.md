@@ -1,5 +1,8 @@
 # **Lab 10: Write a Service Bus Event Listener that consumes Microsoft Dataverse messages (Optional)**
 
+**Prerequisites:**
+To complete this lab, make sure you have an Azure subscription. If you don't have an Azure subscription, you can create a free account using +++https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio+++ before you begin.
+
 ### **Task 1: Set up your Azure Service Bus environment**
 
 Create your Azure Service Bus namespace and message queue with the
