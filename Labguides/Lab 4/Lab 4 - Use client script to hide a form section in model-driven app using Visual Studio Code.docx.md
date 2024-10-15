@@ -135,6 +135,8 @@ and description columns in the account form.
 9.  Add the below JavaScript code to the **Example-form-script.js**
     file.
 
+    **Note:** After pasting code, make sure that your code doesnt have any extra character and if you see extra braces (in     red colour) at the end of the code, delete them.
+
 > ```
 > // A namespace defined for the sample code
 >
