@@ -210,9 +210,9 @@ and description columns in the account form.
 > }
 >
 > }).call(Example);
-> ```
+>```
 
-     **Note:** You can copy this code into a text file instead of using Visual Studio Code and save it with the name: Example-form-script.js.
+ **Note:** You can copy this code into a text file instead of using Visual Studio Code and save it with the     name: Example-form-script.js.
 
 10. Select **File** tab and then select **Save** to save the code.
 
