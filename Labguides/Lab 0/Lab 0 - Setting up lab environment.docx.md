@@ -7,7 +7,7 @@
 ### **Task 1: Assign** **Power Apps trial license** 
 
 1.  Open a web browser on your VM and go to
-    +++https://powerapps.microsoft.com/en-us/free/+++ .
+    +++**https://powerapps.microsoft.com/en-us/free/**+++ .
 
      ![](./media/image1.png)
 
