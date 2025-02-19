@@ -154,18 +154,21 @@ processed by Dataverse to be sent on the Service Bus to the Azure queue.
 
 Test your Service Bus integration with the following steps:
 
-1.  To test your Service Bus integration, go to Power Platform admin
-    center using
+1.  To test your Service Bus integration, go to Power Apps portal using !!https://make.powerapps.com/!!. Select **Dev One** environment, select **Tables** from the left navigation pane then click on **Account** table and under **Account Name** coulum, enter **Adventure Works Cycle**  create an account.
+
+    ![A screenshot of a computer Description automatically generated](./media/image4.1.1.png)
+
+2.  Now go to Power Platform admin center using
     +++**https://admin.powerplatform.microsoft.com**+++. Select
     your Dataverse environment – **Dev One**.
 
      ![A screenshot of a computer Description automatically generated](./media/image21.png)
 
-2.  Expand the **Audit and logs** section and **System jobs**.
+3.  Expand the **Audit and logs** section and **System jobs**.
 
      ![](./media/image22.png)
 
-3.  Verify that your integration step ran successfully by viewing it in
+4.  Verify that your integration step ran successfully by viewing it in
     the **System Jobs** view. If it ran successfully, the **Status
     Reason** should be **Succeeded**. You also use this view to
     troubleshoot integration runs if an error occurs. If there's a
@@ -173,7 +176,7 @@ Test your Service Bus integration with the following steps:
 
      ![A screenshot of a computer Description automatically generated](./media/image23.png)
 
-4.  Because the integration step ran successfully, you can now verify
+5.  Because the integration step ran successfully, you can now verify
     that the account creation message has arrived in your Service Bus
     queue. To verify that, go to the Azure portal, select your Resource
     group – **MyRCG** (in this case) and then select **Mytestinglab**
