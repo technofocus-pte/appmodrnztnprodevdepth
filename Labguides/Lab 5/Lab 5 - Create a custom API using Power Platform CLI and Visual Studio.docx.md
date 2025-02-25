@@ -108,7 +108,7 @@ step in a Power Automate flow.
      ```
      string input = (string)context.InputParameters["StringIn"];
 
-     string pattern = (string)context.InputParameters\["Pattern"\];
+     string pattern = (string)context.InputParameters["Pattern"];
 
      ```
 
@@ -191,7 +191,7 @@ step in a Power Automate flow.
      ![A screenshot of a computer Description automatically generated](./media/image33.png)
 
 8.  Select ... under the Step 1 and then browse to
-    the **CustomAPILab\bin\Debug\net462** folder.
+    the **C:\Users\Admin\CustomAPILab\bin\Debug\net462** folder.
 
      ![A screenshot of a computer Description automatically generated](./media/image34.png)
 
@@ -372,7 +372,7 @@ step in a Power Automate flow.
 
      ![](./media/image66.png)
 
-6.  Enter **myemail@outlook.com** email address in **StringIn**. Here,
+6.  Enter +++myemail@outlook.com+++ email address in **StringIn**. Here,
     you can type any valid simple email address.
 
      ![](./media/image67.png)
