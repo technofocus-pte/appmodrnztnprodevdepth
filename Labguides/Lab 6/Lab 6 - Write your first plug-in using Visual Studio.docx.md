@@ -240,7 +240,7 @@ a phone number.
 
      ![A screenshot of a computer Description automatically generated](./media/image38.png)
 
-7.  Select the **Signing** tab from left pane and select \<**New…\>** Key File.
+7.  Select the **Signing** tab from left pane, check the checkbox for **Sign the assembly** and select \<**New…\>** Key File.
 
      ![A screenshot of a computer Description automatically generated](./media/image39.png)
 
