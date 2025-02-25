@@ -336,7 +336,7 @@ connector you created to display a list of invoices.
 
      ![A screenshot of a computer Description automatically generated](./media/image60.png)
 
-15. Expand the gallery and select the **Subtitle**.
+15. Select **Tree view**, expand the gallery and select the **Subtitle**.
 
      ![A screenshot of a computer Description automatically generated](./media/image61.png)
 
