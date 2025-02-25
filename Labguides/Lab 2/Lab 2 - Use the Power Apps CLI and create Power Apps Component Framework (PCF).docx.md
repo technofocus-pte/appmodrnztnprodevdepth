@@ -62,7 +62,7 @@ component.
     using +++**https://make.powerapps.com/**+++ and make sure you have the **Dev
     One** environment selected.
 
-9.  In the upper right corner of the screen, select
+9.  Go to **Home page**, in the upper right corner of the screen, select
     the **Settings** icon and choose **Session details**.
 
      ![](./media/image12.png)
@@ -163,7 +163,7 @@ component.
 
      **Note:** On the pop-up asking, ‘Do you want to allow untrusted files in this window’, select **Allow**.
 
-    ![A screenshot of a computer error Description automatically generated](./media/image29.png)
+     ![A screenshot of a computer error Description automatically generated](./media/image29.png)
 
 14. Paste the following two variables inside the export.
 
@@ -202,11 +202,11 @@ component.
 
      ![](./media/image33.png)
 
-> **Note:** If you receive message as Windows Defender Firewall has blocked some features, select Allow access.
-
- ![A screenshot of a computer security alert Description automatically generated](./media/image34.png)
-
- ![A screenshot of a computer Description automatically generated](./media/image35.png)
+     **Note:** If you receive message as Windows Defender Firewall has blocked some features, select Allow access.
+    
+     ![A screenshot of a computer security alert Description automatically generated](./media/image34.png)
+    
+     ![A screenshot of a computer Description automatically generated](./media/image35.png)
 
 17. The test harness is effective to use early in the project to see
     what your control looks like visually without having to deploy it to
@@ -286,7 +286,7 @@ component.
      ![A white background with black text Description automatically generated](./media/image48.png)
 
 11. Select zip file of the solution from the path -
-    labPCF\obj\PowerAppsToolsTemp_lab\bin\Debug and then select
+    C:\Users\Admin\labPCF\obj\PowerAppsToolsTemp_lab\bin\Debug and then select
     **Open**.
 
      ![A screenshot of a computer Description automatically generated](./media/image49.png)
@@ -317,7 +317,7 @@ component.
 
      ![](./media/image55.png)
 
-18. Select **Phone** for Format, enter **First PCF** for App name, and
+18. Select **Phone** for Format, enter +++First PCF+++ for App name, and
     select **Create**.
 
      ![A screenshot of a computer Description automatically generated](./media/image56.png)
@@ -326,7 +326,7 @@ component.
 
      ![](./media/image57.png)
 
-20. On the left pane, select **Add (+)**, and then select **Get more
+20. On the left pane, select **(+) Insert**, and then select **Get more
     components** icon situated above the list of Popular components and
     below the search box as shown in the following image.
 
