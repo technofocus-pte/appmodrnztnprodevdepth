@@ -25,8 +25,7 @@ a phone number.
 
      ![A screenshot of a computer Description automatically generated](./media/image2.png)
 
-3.  In the fly-out dialog, specify **Display name** – +++Plugin
-    Lab+++, **Name** – +++PluginLab+++, **Publisher** – CDS Default
+3.  In the fly-out dialog, specify **Display name**: +++Plugin Lab+++, **Name**: +++PluginLab+++, **Publisher**: CDS Default
     publisher and then select **Create**.
 
      ![A screenshot of a computer Description automatically generated](./media/image3.png)
@@ -101,7 +100,7 @@ a phone number.
 
      ![](./media/image18.png)
 
-6.  Right-click the project and select **Manage NuGet Packages**.
+6.  Right-click the project (**D365PackageProject**) and select **Manage NuGet Packages**.
 
      ![A screenshot of a computer Description automatically generated](./media/image19.png)
 
@@ -284,8 +283,7 @@ a phone number.
 
      ![](./media/image47.png)
 
-5.  Select **...** under Step 1 and then browse to the **Bin |
-    Debug** folder of the class library that you created.
+5.  Select **...** under Step 1 and then browse to the C:\Users\Admin\source\repos\D365PackageProject\bin\Debug folder of the class library that you created.
 
      ![A white background with black text Description automatically generated](./media/image48.png)
 
