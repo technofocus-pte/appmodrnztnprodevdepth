@@ -195,7 +195,7 @@ To review and adjust definitions, follow these steps:
 
      ![A screenshot of a phone Description automatically generated](./media/image32.png)
 
-6.  Enter +++**Get Invoice**++ as the **Summary** to improve the usability.
+6.  Enter +++Get Invoice+++ as the **Summary** to improve the usability.
 
      ![A screenshot of a computer Description automatically generated](./media/image33.png)
 
@@ -273,9 +273,9 @@ connector you created to display a list of invoices.
 
      ![](./media/image47.png)
 
-> **Note:** If the portal is not already opened, navigate
-> to +++**https://make.powerapps.com/**+++ and make sure that you are in
-> the **Dev One** environment.
+     **Note:** If the portal is not already opened, navigate
+     to +++**https://make.powerapps.com/**+++ and make sure that you are in
+     the **Dev One** environment.
 
 2.  Make sure you are in **Contoso invoicing** solution you created. If
     not, select **Solutions** and open the **Contoso
@@ -283,7 +283,7 @@ connector you created to display a list of invoices.
 
      ![A screenshot of a computer Description automatically generated](./media/image48.png)
 
-3.  Select **+ New** and then select **App \> Canvas app**.
+3.  Select **+ New** and then select **App > Canvas app**.
 
      ![](./media/image49.png)
 
