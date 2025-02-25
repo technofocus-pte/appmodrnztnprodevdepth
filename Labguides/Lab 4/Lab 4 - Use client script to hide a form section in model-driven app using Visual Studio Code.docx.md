@@ -12,7 +12,7 @@ and description columns in the account form.
 ### **Task 1: Create a new solution and a model-driven app**
 
 1.  Navigate to Power Apps using
-    +++**https://make.powerapps.com/**+++. Make sure you are in **Dev
+    +++https://make.powerapps.com/+++. Make sure you are in **Dev
     One** environment.
 
      ![A screenshot of a computer Description automatically generated](./media/image1.png)
@@ -22,8 +22,8 @@ and description columns in the account form.
 
      ![](./media/image2.png)
 
-3.  In the fly-out dialog, specify **Display name** – +++First Client
-    Script+++, **Name** – +++FirstClientScript+++.
+3.  In the fly-out dialog, specify **Display name**: +++First Client
+    Script+++, **Name**: +++FirstClientScript+++.
 
      ![A screenshot of a computer Description automatically generated](./media/image3.png)
 
@@ -135,7 +135,7 @@ and description columns in the account form.
 9.  Add the below JavaScript code to the **Example-form-script.js**
     file.
 
-    **Note:** After pasting code, make sure that your code doesnt have any extra character and if you see extra braces (in     red colour) at the end of the code, delete them.
+    **Note:** After pasting code, make sure that your code doesnt have any extra character and if you see extra braces (in red colour) at the end of the code, delete them.
 
 > ```
 > // A namespace defined for the sample code
@@ -150,11 +150,10 @@ and description columns in the account form.
 >
 > // Define some global variables
 >
-> var myUniqueId = "\_myUniqueId"; // Define an ID for the notification
+> var myUniqueId = "_myUniqueId"; // Define an ID for the notification
 >
 > var currentUserName =
-> Xrm.Utility.getGlobalContext().userSettings.userName; // get current
-> user name
+> Xrm.Utility.getGlobalContext().userSettings.userName; // get current user name
 >
 > var message = currentUserName + ": Your JavaScript code in action!";
 >
@@ -181,8 +180,7 @@ and description columns in the account form.
 >
 > var formContext = executionContext.getFormContext();
 >
-> // Automatically set some column values if the account name contains
-> "Contoso"
+> // Automatically set some column values if the account name contains "Contoso"
 >
 > var accountName = formContext.getAttribute("name").getValue();
 >
@@ -212,7 +210,7 @@ and description columns in the account form.
 > }).call(Example);
 >```
 
- **Note:** You can copy this code into a text file instead of using Visual Studio Code and save it with the     name: Example-form-script.js.
+ **Note:** You can copy this code into a text file instead of using Visual Studio Code and save it with the name: Example-form-script.js.
 
 10. Select **File** tab and then select **Save** to save the code.
 
