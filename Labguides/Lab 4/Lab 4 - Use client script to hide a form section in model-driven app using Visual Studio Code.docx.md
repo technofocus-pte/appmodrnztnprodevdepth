@@ -222,7 +222,7 @@ and description columns in the account form.
 
 Now that your code is ready, you need to upload it into your solution.
 
-1.  In your solution select **+New** | **More** | **Web resource.**
+1.  On Power Apps portal, in your solution select **+New** | **More** | **Web resource.**
 
      ![A screenshot of a computer Description automatically generated](./media/image23.png)
 
@@ -300,8 +300,8 @@ Now that your code is ready, you need to upload it into your solution.
 
      ![A screenshot of a computer Description automatically generated](./media/image35.png)
 
-3.  Make sure that, the** Event Type **is** On Load** and
-    the** example_example-form-script library** is selected.
+3.  Make sure that, the **Event Type** is **On Load** and
+    the **example_example-form-script library** is selected.
 
      ![A screenshot of a computer Description automatically generated](./media/image36.png)
 
