@@ -62,7 +62,7 @@ component.
     using +++**https://make.powerapps.com/**+++ and make sure you have the **Dev
     One** environment selected.
 
-9.  Go to **Home page**, in the upper right corner of the screen, select
+9.  Go to **Home page**, from the upper right corner of the screen, select
     the **Settings** icon and choose **Session details**.
 
      ![](./media/image12.png)
@@ -182,11 +182,11 @@ component.
 
      +++this.label.value = "My First PCF";+++
 
-     +++this.\_container = document.createElement("div");+++
+     +++this._container = document.createElement("div");+++
 
-     +++this.\_container.appendChild(this.label);+++
+     +++this._container.appendChild(this.label);+++
 
-     +++container.appendChild(this.\_container);+++
+     +++container.appendChild(this._container);+++
 
      ![A screenshot of a computer program Description automatically generated](./media/image31.png)
 
