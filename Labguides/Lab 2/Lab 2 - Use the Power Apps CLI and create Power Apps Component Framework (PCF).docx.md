@@ -11,7 +11,7 @@ component.
 1.  Open Visual Studio Code using the shortcut present on VM’s Desktop,
     select the **Extensions** icon in the navigation bar.
 
-   ![A screenshot of a computer program Description automatically generated](./media/image1.png)
+       ![A screenshot of a computer Description automatically generated](./media/image1.png)
 
 2.  Search for +++**power platform tools**+++. Select
     the **Install** button in the search results.
