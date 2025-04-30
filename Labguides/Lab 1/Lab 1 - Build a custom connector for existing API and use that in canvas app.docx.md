@@ -303,7 +303,7 @@ connector you created to display a list of invoices.
 7.  expand **Connectors**, and then select the **Contoso
     invoicing** custom connector you created.
 
-     ![A screenshot of a computer Description automatically generated](./media/image53.png)
+       ![A screenshot of a computer Description automatically generated](./media/image53.png)
 
 8.  Select the **+ Add a connection**.
 
