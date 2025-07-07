@@ -22,8 +22,7 @@ and description columns in the account form.
 
      ![](./media/image2.png)
 
-3.  In the fly-out dialog, specify **Display name**: +++First Client
-    Script+++, **Name**: +++FirstClientScript+++.
+3.  In the fly-out dialog, specify **Display name**: +++First Client Script+++, **Name**: +++FirstClientScript+++.
 
      ![A screenshot of a computer Description automatically generated](./media/image3.png)
 
@@ -44,9 +43,9 @@ and description columns in the account form.
 
      Notice the **Prefix** value. This should be something that identifies your company. In this case, we are using example.
 
-6.  You will be now on New solution dialog. Select **Example Publisher
-    (ExamplePublisher)** from the dropdown of Publisher field and then
-    select **Create**.
+6.  You will be now on **New solution** dialog. You can see **Example Publisher
+    ExamplePublisher)** is automatically selected from the dropdown of Publisher field and then
+    select **Create**. 
 
      ![](./media/image6.png)
 
@@ -99,7 +98,7 @@ and description columns in the account form.
     will use Visual Studio Code.
 
 2.  Go to the VM’s Desktop, create a **new folder** and name it as
-    ‘**Client Script Lab**’.
+    +++Client Script Lab+++.
 
 3.  Open Visual Studio Code on your VM. To open that, use the given
     shortcut on VM’s Desktop or click on **Start** menu, search and then
