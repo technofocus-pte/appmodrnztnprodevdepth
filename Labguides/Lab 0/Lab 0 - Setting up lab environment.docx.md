@@ -16,7 +16,7 @@
    ![A person with his arms crossed Description automatically generated](./media/image2.png)
 
 3.  Enter your **Office 365 admin credential**, check the checkbox to
-    **accept the agreement** and click on **Start your free trial**.
+    **accept the agreement** and click on **Start free**.
 
     ![](./media/image3.png)
 
@@ -29,7 +29,7 @@
 
      ![A screenshot of a computer error Description automatically generated](./media/image5.png)
 
-6.  If pop-up appears, provide **Contact Information** as below and then
+6.  If a pop-up appears, provide **Contact Information** as below and then
     select **Submit**.
 
      Email: **Office 365 admin tenant credentials**
@@ -49,14 +49,14 @@
 8.  Open the new tab and go to Power Platform admin center by navigating
     to +++https://admin.powerplatform.microsoft.com+++ and if required, sign
     in using your given Office 365 tenant admin credentials. **Close**
-    the **Pop-up window** saying, ‘Welcome to the Power Platform admin
+    the **pop-up window** saying, ‘Welcome to the new Power Platform admin
     center’.
 
      ![](./media/image8.png)
 
-9.  From the left navigation pane, select **Environments** and then you
+9.  From the left navigation pane, select **Manage** > **Environments** and then you
     can see, **Dev One** is your Dataverse environment.
 
      ![A screenshot of a computer Description automatically generated](./media/image9.png)
->
-> **Summary:** In this lab, you acquired Power Apps trial license.
+
+     **Summary:** In this lab, you acquired Power Apps trial license.
