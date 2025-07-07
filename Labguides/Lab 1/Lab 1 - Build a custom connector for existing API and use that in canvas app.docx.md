@@ -60,17 +60,17 @@ To review the API, follow these steps:
 To create a new solution, follow these steps:
 
 1.  Go to +++**https://make.powerapps.com/**+++ and make sure that you are in
-    **Dev One** environment.
+    **Dev One** environment. If not click on the environment selector and select **Dev One**.
 
-     ![](./media/image9.png)
+     ![](./media/image2.1.png)
 
 2.  From left navigation pane, select **Solutions**.
 
-     ![A screenshot of a computer Description automatically generated](./media/image10.png)
+     ![A screenshot of a computer Description automatically generated](./media/image2.2.png)
 
 3.  Select **+New solution** from the upper ribbon.
 
-     ![A screenshot of a computer Description automatically generated](./media/image11.png)
+     ![A screenshot of a computer Description automatically generated](./media/image2.3.png)
 
 4.  Enter +++**Contoso invoicing**+++ for the **Display name** and
     select **+ New publisher**.
@@ -111,11 +111,11 @@ To create a new connector, follow these steps:
 
 3.  Enter +++**Contoso invoicing**+++ for the **Connector name**.
 
-     ![](./media/image18.png)
+     ![](./media/image3.3.png)
 
 4.  Select **Upload** to upload the image.
 
-     ![A screenshot of a computer Description automatically generated](./media/image19.png)
+     ![A screenshot of a computer Description automatically generated](./media/image3.4.png)
 
 5.  Select the connector logo image that you downloaded in **Task 1:
     Review the API**.
@@ -131,7 +131,7 @@ To create a new connector, follow these steps:
 
 9.  Select **Create connector**.
 
-     ![A screenshot of a computer Description automatically generated](./media/image21.png)
+     ![A screenshot of a computer Description automatically generated](./media/image3.9.png)
 
 10. Don't navigate away from this page.
 
@@ -141,7 +141,7 @@ To import the OpenAPI definition, follow these steps:
 
 1.  Select the arrow next to **Connector Name**.
 
-     ![A screenshot of a computer screen Description automatically generated](./media/image22.png)
+     ![A screenshot of a computer screen Description automatically generated](./media/image4.1.png)
 
 2.  Select the ellipsis (**...**) button of the connector and then
     select **Update from OpenAPI file**.
@@ -163,13 +163,13 @@ To import the OpenAPI definition, follow these steps:
 
 6.  Fill in the host URL
     as +++**contosoinvoicingtest.azurewebsites.net**+++ and then
-    select **Security** from the bottom right corner.
+    select **Security** from the drop-down menu.
 
-     ![A screenshot of a computer Description automatically generated](./media/image27.png)
+     ![A screenshot of a computer Description automatically generated](./media/image4.6.png)
 
 7.  Notice that the fields are filled out from the imported file.
 
-     ![A screenshot of a computer Description automatically generated](./media/image28.png)
+     ![A screenshot of a computer Description automatically generated](./media/image4.7.png)
 
 8.  Don't navigate away from this page.
 
@@ -179,7 +179,7 @@ To review and adjust definitions, follow these steps:
 
 1.  Select the **Definition** tab.
 
-     ![A screenshot of a computer Description automatically generated](./media/image29.png)
+     ![A screenshot of a computer Description automatically generated](./media/image5.1.png)
 
 2.  Take a few minutes to review the operations that were imported.
 
@@ -235,11 +235,11 @@ To test the connector, follow these steps:
 
 1.  Select the **Test** tab.
 
-     ![A screenshot of a computer Description automatically generated](./media/image40.png)
+     ![A screenshot of a computer Description automatically generated](./media/image6.1.png)
 
 2.  Select **+ New connection**.
 
-     ![A screenshot of a computer Description automatically generated](./media/image41.png)
+     ![A screenshot of a computer Description automatically generated](./media/image6.2.png)
 
 3.  Paste in the **API Key** that you saved in **Task 1: Review the
     API** and then select **Create connection**.
@@ -248,7 +248,7 @@ To test the connector, follow these steps:
 
 4.  Select the **Refresh** button.
 
-     ![A screenshot of a computer Description automatically generated](./media/image43.png)
+     ![A screenshot of a computer Description automatically generated](./media/image6.4.png)
 
 5.  Select **ListInvoiceTypes | Test Operation**.
 
@@ -260,7 +260,7 @@ To test the connector, follow these steps:
 
 7.  Select **Close** to close the custom connector window.
 
-     ![](./media/image46.png)
+     ![](./media/image6.7.png)
 
 ### **Task 7: Use custom connector in canvas app**
 
@@ -298,12 +298,12 @@ connector you created to display a list of invoices.
 
 6.  Select the **Data** tab, select **+ Add data**.
 
-     ![A screenshot of a computer Description automatically generated](./media/image52.png)
+     ![A screenshot of a computer Description automatically generated](./media/image7.6.png)
 
-7.  expand **Connectors**, and then select the **Contoso
+7.  Expand **Connectors**, and then select the **Contoso
     invoicing** custom connector you created.
 
-       ![A screenshot of a computer Description automatically generated](./media/image53.png)
+       ![A screenshot of a computer Description automatically generated](./media/image7.7.png)
 
 8.  Select the **+ Add a connection**.
 
