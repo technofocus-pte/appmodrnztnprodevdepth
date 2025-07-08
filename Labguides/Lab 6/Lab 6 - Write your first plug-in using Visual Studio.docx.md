@@ -54,7 +54,7 @@ a phone number.
 
      **Note:** For this lab, we are using Contact table.
 
-9.  Now, your model-driven app which is named as ‘Funraiser’ is ready.
+9.  Now, your model-driven app which is named as ‘Fundraiser’ is ready.
 
      ![](./media/image9.png)
 
@@ -66,11 +66,11 @@ a phone number.
 
      ![A purple and white rectangle Description automatically generated](./media/image11.png)
 
-12. Click on **back arrow** to come back in your solution.
+12. Click on the **back arrow** to come back in your solution.
 
      ![A screenshot of a browser Description automatically generated](./media/image12.png)
 
-13. Click on **back arrow** and you will be on solution page where all
+13. Click on the **back arrow** and you will be on solution page where all
     the solutions are listed.
 
      ![A screenshot of a computer Description automatically generated](./media/image13.png)
@@ -86,12 +86,12 @@ a phone number.
 
      ![](./media/image15.png)
 
-3.  Type **Class Library** in the search box and then select **Class Library (.NET Framework)** and select **Next**.
+3.  Type +++**Class Library**+++ in the search box and then select **Class Library (.NET Framework)** and select **Next**.
 
      ![A screenshot of a computer Description automatically generated](./media/image16.png)
 
 4.  Enter +++**D365PackageProject**+++ for **Project Name**, select a location
-    to save the project,
+    to save the project.
 
      ![](./media/image17.png)
 
@@ -105,12 +105,12 @@ a phone number.
      ![A screenshot of a computer Description automatically generated](./media/image19.png)
 
 7.  Select the **Browse** tab, search for and
-    select **microsoft.crmsdk.coreassemblies**, and then
+    select +++**microsoft.crmsdk.coreassemblies**+++, and then
     select **Install**.
 
      ![](./media/image20.png)
 
-8.  On Preview changes window, select **Apply** to allow Visual Studio
+8.  On **Preview changes** window, select **Apply** to allow Visual Studio
     to make changes to the solution.
 
      ![A screenshot of a computer program Description automatically generated](./media/image21.png)
@@ -254,7 +254,7 @@ a phone number.
 
      ![](./media/image41.png)
 
-10. Select **Build** tab and click on **Build Project**.
+10. Select **Build D365PackageProject** tab and click on **Build Project**.
 
      ![A screenshot of a computer program Description automatically generated](./media/image42.png)
 
@@ -265,7 +265,7 @@ a phone number.
 ### **Task 4: Register a plug-in and steps**
 
 1.  Go to **Start** menu of the VM, type plug-in registration tool in
-    the search box and click **Open**.
+    the search box and click **Open**. Ignore the step if plug-in registration tool is already open and then you can go to the step no. 4 directly.
 
      ![](./media/image44.png)
 
@@ -274,7 +274,7 @@ a phone number.
      ![A screenshot of a computer Description automatically generated](./media/image45.png)
 
 3.  Select **Office 365,** select the **Show Advanced** check box, in
-    the Online Region field, select **Don’t Know**, provide your
+    the **Online Region field**, select **Don’t Know**, provide your
     credentials (M365 Admin tenant), and then select **Login**.
 
      ![](./media/image46.png)
@@ -323,12 +323,12 @@ a phone number.
 
      ![](./media/image56.png)
 
-14. If you get error message i.e. Error occurred while registering the
+14. If you get an error message i.e. Error occurred while registering the
     step, select **No** to see the details.
 
      ![A screenshot of a computer error Description automatically generated](./media/image57.png)
 
-15. Check that, create step has got created under the Plugin.
+15. Check that, the create step has got created under the Plug-in.
 
      ![A red line with black text Description automatically generated](./media/image58.png)
 
@@ -351,12 +351,12 @@ a phone number.
 
      ![A screenshot of a computer Description automatically generated](./media/image62.png)
 
-20. If you get error message i.e. Error occurred while registering the
+20. If you get an error message i.e. Error occurred while registering the
     step, select **No** to see the details.
 
      ![A screenshot of a computer error Description automatically generated](./media/image57.png)
 
-21. Check that, create step has got created under the Plugin.
+21. Check that, the create step has got created under the Plug-in.
 
      ![A screenshot of a computer Description automatically generated](./media/image63.png)
 
@@ -385,7 +385,7 @@ a phone number.
 
      ![](./media/image67.png)
 
-5.  Change the **Business Phone** to **001-123-555-0100** and click on
+5.  Change the **Business Phone** to +++**001-123-555-0100**+++ and click on
     **Save**. The record should be updated, and the **Business
     Phone** should show only the numeric values.
 
