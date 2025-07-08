@@ -95,125 +95,15 @@ and description columns in the account form.
     use an external authoring tool that provides features to
     specifically support editing JavaScript files, such as Notepad++,
     Visual Studio Code, or Microsoft Visual Studio. In this lab, you
-    will use Visual Studio Code.
+    will use Notepad and Visual Studio Code.
 
 2.  Go to the VM’s Desktop, create a **new folder** and name it as
     +++Client Script Lab+++.
 
-3.  Open Visual Studio Code on your VM. To open that, use the given
-    shortcut on VM’s Desktop or click on **Start** menu, search and then
-    select **Visual Studio Code**.
+3. On the VM, go to **C:\Labfiles**. Open **Example-form-script.js.txt** file, select **File tab** > **Save as** and then save the file as **Example-form-script.js** (keep the **Save as type** – **All Files (*.*)**).   
 
-     ![A screenshot of a computer Description automatically generated](./media/image16.png)
+    ![A screenshot of a computer Description automatically generated](./media/image2.3.png)
 
-4.  Select **File** tab from the upper left corner and then select
-    **Open Folder**.
-
-     ![A screenshot of a computer Description automatically generated](./media/image17.png)
-
-5.  Select the **Client Script Lab** folder from Desktop and click on
-    **Select folder**.
-
-     ![A screenshot of a computer Description automatically generated](./media/image18.png)
-
-6.  If you come across the pop-up that says, ‘**Do you trust the authors
-    of the files in this folder?**’ then click on ‘**Yes. I trust the
-    authors**’.
-
-     ![A screenshot of a computer Description automatically generated](./media/image19.png)
-
-7.  Hover the mouse over **CLIENTSCRIPTLAB** folder and select **New
-    File**.
-
-     ![A screenshot of a computer Description automatically generated](./media/image20.png)
-
-8.  Name the file +++**Example-form-script.js**+++.
-
-     ![A screenshot of a computer program Description automatically generated](./media/image21.png)
-
-9.  Add the below JavaScript code to the **Example-form-script.js**
-    file.
-
-    **Note:** After pasting code, make sure that your code doesnt have any extra character and if you see extra braces (in red colour) at the end of the code, delete them.
-
-> ```
-> // A namespace defined for the sample code
->
-> // As a best practice, you should always define
->
-> // a unique namespace for your libraries
->
-> var Example = window.Example || {};
->
-> (function () {
->
-> // Define some global variables
->
-> var myUniqueId = "_myUniqueId"; // Define an ID for the notification
->
-> var currentUserName =
-> Xrm.Utility.getGlobalContext().userSettings.userName; // get current user name
->
-> var message = currentUserName + ": Your JavaScript code in action!";
->
-> // Code to run in the form OnLoad event
->
-> this.formOnLoad = function (executionContext) {
->
-> var formContext = executionContext.getFormContext();
->
-> // Display the form level notification as an INFO
->
-> formContext.ui.setFormNotification(message, "INFO", myUniqueId);
->
-> // Wait for 5 seconds before clearing the notification
->
-> window.setTimeout(function () {
-> formContext.ui.clearFormNotification(myUniqueId); }, 5000);
->
-> }
->
-> // Code to run in the column OnChange event
->
-> this.attributeOnChange = function (executionContext) {
->
-> var formContext = executionContext.getFormContext();
->
-> // Automatically set some column values if the account name contains "Contoso"
->
-> var accountName = formContext.getAttribute("name").getValue();
->
-> if (accountName.toLowerCase().search("contoso") != -1) {
->
-> formContext.getAttribute("websiteurl").setValue("https://www.contoso.com");
->
-> formContext.getAttribute("telephone1").setValue("425-555-0100");
->
-> formContext.getAttribute("description").setValue("Website URL, Phone
-> and Description set using custom script.");
->
-> }
->
-> }
->
-> // Code to run in the form OnSave event
->
-> this.formOnSave = function () {
->
-> // Display an alert dialog
->
-> Xrm.Navigation.openAlertDialog({ text: "Record saved." });
->
-> }
->
-> }).call(Example);
->```
-
- **Note:** You can copy this code into a text file instead of using Visual Studio Code and save it with the name: Example-form-script.js.
-
-10. Select **File** tab and then select **Save** to save the code.
-
-     ![](./media/image22.png)
 
 ### **Task 3: Upload your code as a web resource**
 
@@ -230,17 +120,14 @@ Now that your code is ready, you need to upload it into your solution.
 3.  Select the **Example-form-script.js** file you saved earlier on VM’s
     Desktop and click on **Open**.
 
-     ![](./media/image25.png)
+     ![](./media/image3.3.png)
 
-4.  Type in the **Display name** – +++Example Script+++, **Name** –
-    +++example-form-script+++, make sure the **Type** is **JavaScript
-    (JS)** and then select **Save**.
+4.  Make sure the **File Type** is **JavaScript (JS)**. Type in the **Name** –
+    +++example-form-script+++, **Display name** – +++Example Script+++ and then select **Save**.
 
-     ![A screenshot of a computer Description automatically generated](./media/image26.png)
-
-     ** **
-    
-    **Note:** - Notice how the **Name** has a prefix that matches the solution
+     ![A screenshot of a computer Description automatically generated](./media/image3.4.png)
+   
+    **Note**: - Notice how the **Name** has a prefix that matches the solution
       publisher customization prefix. There are other ways to create web
       resources, but creating a web resource this way ensures that the Web
       Resource is part of your solution.
@@ -254,33 +141,35 @@ Now that your code is ready, you need to upload it into your solution.
 
      ![](./media/image27.png)
 
-2.  Expand **Account** and select the **Account form**.
+2.  From the left navigation pane, select the **Account form**.
 
      ![A screenshot of a computer Description automatically generated](./media/image28.png)
 
-3.  If you see information form and other forms. Keep the information
+3.  Expland the **Accounts form panel** from the right side of the app. If you see information form and other forms. Keep the information
     form only and remove other forms. To remove them, click the ellipses
     (**...**) to the right of the form and select **Remove**.
 
      **Note:** Do not remove information form.
 
-     ![A screenshot of a computer Description automatically generated](./media/image29.png)
+    ![A screenshot of a computer Description automatically generated](./media/image4.3.png)
 
-4.  Now, click the ellipses (**...**) to the right of
+    ![A screenshot of a computer Description automatically generated](./media/image29.png)
+
+5.  Now, click the ellipses (**...**) to the right of
     the **Information** form and select **Edit**.
 
      ![A screenshot of a computer Description automatically generated](./media/image30.png)
 
-5.  If Unsaved changes pop-up appears, select **Save and continue**.
+6.  If **Unsaved changes** pop-up appears, select **Save and continue**.
 
      ![A screenshot of a computer Description automatically generated](./media/image31.png)
 
-6.  In the left navigation, select **Form Libraries** and click **Add
+7.  In the left navigation, select **Form Libraries** and click **Add
     library**.
 
      ![A screenshot of a computer Description automatically generated](./media/image32.png)
 
-7.  In the **Add JavaScript Library** dialog, search for the JavaScript
+8.  In the **Add JavaScript Library** dialog, search for the JavaScript
     web resource you created by name: **Example Script**. Select
     the **Example Script** web resource and click **Add**.
 
@@ -302,7 +191,7 @@ Now that your code is ready, you need to upload it into your solution.
 
      ![A screenshot of a computer Description automatically generated](./media/image36.png)
 
-4.  Type the name of the function in the Function field. In this
+4.  Type the name of the function in the **Function** field. In this
     case +++**Example.formOnLoad**+++.
 
      ![](./media/image37.png)
@@ -312,7 +201,7 @@ Now that your code is ready, you need to upload it into your solution.
 
      ![A screenshot of a computer Description automatically generated](./media/image38.png)
 
-6.  To configure Form On Save event, select **On Save** event handler
+6.  To configure Form **On Save** event, select **On Save** event handler
     and click **+Event Handler**.
 
      ![A screenshot of a web page Description automatically generated](./media/image39.png)
@@ -333,7 +222,7 @@ Now that your code is ready, you need to upload it into your solution.
 
      ![A screenshot of a computer Description automatically generated](./media/image42.png)
 
-10. To Configure Field On Change event, select the **Account
+10. To Configure Field **On Change** event, select the **Account
     Name** field and the **Events** tab.
 
      ![A screenshot of a computer Description automatically generated](./media/image43.png)
@@ -365,7 +254,7 @@ Now that your code is ready, you need to upload it into your solution.
 
      ![](./media/image49.png)
 
-17. You will be in your Account App. Select **Save**.
+17. You will be in your **Account App**. Select **Save**.
 
      ![](./media/image50.png)
 
@@ -393,8 +282,7 @@ To test your code:
 
      ![A screenshot of a computer Description automatically generated](./media/image53.png)
 
-3.  Double-click the model-driven app – **Account App** you just edited
-    or select it and click **Play**.
+3.  Select the **Account App** (not to open) and click **Play**.
 
      ![A screenshot of a computer Description automatically generated](./media/image54.png)
 
@@ -410,7 +298,7 @@ To test your code:
 
 6.  Verify the notification disappears in 5 seconds.
 
-7.  To test field On Change function, select **Alpine Ski House
+7.  To test the field **On Change** function, select **Alpine Ski House
     (sample)** from the Account Name list.
 
      ![](./media/image57.png)
