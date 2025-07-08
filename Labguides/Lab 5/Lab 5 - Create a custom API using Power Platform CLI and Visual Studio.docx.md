@@ -63,7 +63,7 @@ step in a Power Automate flow.
 
      ![](./media/image10.png)
 
-11. Right click on the Plugin1.cs file and rename it **MatchPlugin.cs**.
+11. Right click on the **Plugin1.cs** file and rename it +++**MatchPlugin.cs**+++.
 
      ![](./media/image11.png)
 
@@ -71,7 +71,7 @@ step in a Power Automate flow.
 
      ![A screenshot of a computer Description automatically generated](./media/image12.png)
 
-13. Right click on the CustomAPILab Project and select **Manage NuGet
+13. Right click on the **CustomAPILab** Project and select **Manage NuGet
     Packages**.
 
      ![A screenshot of a computer Description automatically generated](./media/image13.png)
@@ -81,7 +81,7 @@ step in a Power Automate flow.
 
      ![](./media/image14.png)
 
-15. On **Preview changes** window, select **Apply** to allow Visual Studio
+15. On **Preview Changes** window, select **Apply** to allow Visual Studio
     to make changes to the solution.
 
      ![](./media/image15.png)
