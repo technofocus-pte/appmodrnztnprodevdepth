@@ -26,13 +26,13 @@ step in a Power Automate flow.
     ![A screenshot of a computer program Description automatically generated](./media/image3.png)
 
 4.  You should now be in the CustomAPIlAB folder. Run the command below
-    to initialize a new Dataverse plugin class library.
+    to initialize a new Dataverse plug-in class library.
 
      +++pac plugin init+++
 
     ![A screenshot of a computer Description automatically generated](./media/image4.png)
 
-6.  Dataverse plugin class library creation should be successful.
+6.  The Dataverse plug-in class library creation should be successful.
 
      ![A screenshot of a computer Description automatically generated](./media/image5.png)
 
@@ -76,12 +76,12 @@ step in a Power Automate flow.
 
      ![A screenshot of a computer Description automatically generated](./media/image13.png)
 
-14. Select **Browse** and then search for **System.Text.RegularExpressions** and
+14. Select **Browse** and then search for +++System.Text.RegularExpressions+++ and
     select **Install**.
 
      ![](./media/image14.png)
 
-15. On Preview changes window, select **Apply** to allow Visual Studio
+15. On **Preview changes** window, select **Apply** to allow Visual Studio
     to make changes to the solution.
 
      ![](./media/image15.png)
@@ -157,9 +157,9 @@ step in a Power Automate flow.
 
      ![A screenshot of a computer program Description automatically generated](./media/image27.png)
 
-### **Task 2: Register the custom API plugin**
+### **Task 2: Register the custom API plug-in**
 
-1.  Open command prompt and run the command below to launch the Plugin
+1.  Open command prompt and run the command below to launch the Plug-in
     Registration Tool.
 
      +++pac tool prt+++
@@ -175,11 +175,11 @@ step in a Power Automate flow.
 
      ![A screenshot of a login box Description automatically generated](./media/image30.png)
 
-4.  Sign in with your **M365 Admin tenant Id** and then select **Next**.
+4.  If asked, sign in with your **M365 Admin tenant Id** and then select **Next**.
 
      ![A screenshot of a computer Description automatically generated](./media/image31.png)
 
-5.  Enter your **M365 Admin tenant Id’s** **password** and then select
+5.  If asked, enter your **M365 Admin tenant Id’s** **password** and then select
     **Sign in**.
 
      ![A screenshot of a login box Description automatically generated](./media/image32.png)
@@ -203,7 +203,7 @@ step in a Power Automate flow.
 
      ![A screenshot of a computer Description automatically generated](./media/image36.png)
 
-11. Select **OK** to the success message. Your plugin is ready to
+11. Select **OK** to the success message. Your plug-in is ready to
     connect to the custom API we'll create in the next task.
 
      ![A screenshot of a computer error Description automatically generated](./media/image37.png)
@@ -254,7 +254,7 @@ step in a Power Automate flow.
 
      ![A screenshot of a computer Description automatically generated](./media/image41.png)
 
-8.  In Plugin Type select the search icon and locate your plugin -
+8.  In Plug-in Type select the search icon and locate your plug-in -
     **CustomAPILab.MatchPlugin**.
 
      ![A screenshot of a computer Description automatically generated](./media/image41.png)
@@ -303,7 +303,7 @@ step in a Power Automate flow.
 
      ![A screenshot of a computer Description automatically generated](./media/image51.png)
 
-19. Enter **Pattern** for Unique Name, Name, Display Name and
+19. Enter +++**Pattern**+++ for Unique Name, Name, Display Name and
     Description for simplicity.
 
      ![A screenshot of a computer Description automatically generated](./media/image52.png)
@@ -364,7 +364,7 @@ step in a Power Automate flow.
 
      ![A screenshot of a computer Description automatically generated](./media/image64.png)
 
-4.  Search for perform and choose **Perform an unbound action**.
+4.  Search for perform and choose +++**Perform an unbound action**+++.
 
      ![A screenshot of a computer Description automatically generated](./media/image65.png)
 
