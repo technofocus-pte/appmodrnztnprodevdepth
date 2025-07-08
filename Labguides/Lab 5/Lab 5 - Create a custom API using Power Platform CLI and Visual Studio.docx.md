@@ -1,4 +1,4 @@
-# **Lab 5: Create a custom API**
+# **Lab 5: Create a custom API using Power Platform CLI and Visual Studio**
 
 **Estimated Duration:** 35 min
 
@@ -43,14 +43,16 @@ step in a Power Automate flow.
      ![](./media/image6.png)
 
 7.  If asked, select **Microsoft Visual Studio 2022** and then select
-    **Just once**.
+    **OK**.
 
-     ![A screenshot of a computer Description automatically generated](./media/image7.png)
+     ![A screenshot of a computer Description automatically generated](./media/image1.7.png)
 
-8.  If you are asked to sign in to Visual Studio , select **Skip this
+8.  Close the pop-up that says 'Product key applied'. If you are asked to sign in to Visual Studio , select **Skip this
     for now** on signing in page.
 
-     ![A screenshot of a computer Description automatically generated](./media/image8.png)
+    ![A screenshot of a computer Description automatically generated](./media/image1.8.png)
+    
+    ![A screenshot of a computer Description automatically generated](./media/image8.png)
 
 9.  Select **General** as Development settings choose **Dark** as your
     color theme and then select **Start Visual Studio**.
@@ -366,16 +368,20 @@ step in a Power Automate flow.
 
 4.  Search for perform and choose +++**Perform an unbound action**+++.
 
-     ![A screenshot of a computer Description automatically generated](./media/image65.png)
+     ![A screenshot of a computer Description automatically generated](./media/image4.4.png)
 
-5.  In the Action Name list, locate and select **contoso_match**.
+    **Note**: If you are asked to sign in then make sure that **Authetication type** is selected as **Oauth** and select then select **Sign in**.
 
-     ![](./media/image66.png)
+    ![A screenshot of a computer Description automatically generated](./media/image4.4.1.png)
+    
+5.  In the **Action Name** list, locate and select **contoso_match**.
+
+     ![](./media/image4.5.png)
 
 6.  Enter +++myemail@outlook.com+++ email address in **StringIn**. Here,
     you can type any valid simple email address.
 
-     ![](./media/image67.png)
+     ![](./media/image4.6.png)
 
 7.  Enter the following Regular expression in Pattern. This is a simple
     email pattern.
@@ -384,39 +390,38 @@ step in a Power Automate flow.
   
     +++^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$+++
 
-    ![A screenshot of a computer Description automatically generated](./media/image68.png)
+    ![A screenshot of a computer Description automatically generated](./media/image4.7.png)
 
-9.  Your flow should look like the following.
+8.  Your flow should look like the following.
 
-     ![A screenshot of a computer Description automatically generated](./media/image69.png)
+     ![A screenshot of a computer Description automatically generated](./media/image4.8.png)
 
-10.  Select **Save**.
+9.  Select **Save**.
 
-     ![A screenshot of a computer Description automatically generated](./media/image70.png)
+     ![A screenshot of a computer Description automatically generated](./media/image4.9.png)
 
-11. After save is complete, select **Test**.
+10. After save is complete, select **Test**.
 
-     ![A screenshot of a computer Description automatically generated](./media/image71.png)
+     ![A screenshot of a computer Description automatically generated](./media/image4.10.png)
 
-12. Select **Manually**, then select **Test**.
+11. Select **Manually**, then select **Test**.
 
      ![A screenshot of a phone Description automatically generated](./media/image72.png)
 
-13. Select **Run flow**.
+12. Select **Run flow**.
 
      ![A white background with black dots Description automatically generated](./media/image73.png)
 
-14. Select **Done**.
+13. Select **Done**.
 
      ![A screenshot of a phone Description automatically generated](./media/image74.png)
 
-15. After your flow completes, select the **Perform an unbound
+14. After your flow completes, select the **Perform an unbound
     action** to expand and see results.
 
-     ![A screenshot of a computer Description automatically generated](./media/image75.png)
+     ![A screenshot of a computer Description automatically generated](./media/image4.14.png)
 
-     ![Screenshot showing the results of running the flow.](./media/image76.png)
-
+     
 **Summary:** In this lab, you have learnt how to build a custom action
 and use it from a Power Automate flow. The custom API action
 contoso_match is now also available for calling directly using the
