@@ -29,7 +29,7 @@ In this task, you'll use a Power Platform CLI to install tools.
 
      +++pac tool pd+++
 
-    ![A screenshot of a computer Description automatically generated](./media/image4.png)
+    ![A screenshot of a computer Description automatically generated](./media/image3.1.5.png)
 
 6.  The Package deployer tool should be installed and launched. Close
     the Package Deployer Tool.
