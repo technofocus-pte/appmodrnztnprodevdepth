@@ -78,7 +78,7 @@ component.
     command to establish a connection from the CLI and sign into your
     test environment when prompted.
 
-     +++pac auth create --name Lab --environment **<Paste your Instance URL>**
+     +++pac auth create --name Lab --environment+++
 
      ![](./media/image14.png)
 
