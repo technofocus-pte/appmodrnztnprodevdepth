@@ -49,7 +49,7 @@
 8.  Open the new tab and go to Power Platform admin center by navigating
     to +++https://admin.powerplatform.microsoft.com+++ and if required, sign
     in using your given Office 365 tenant admin credentials. **Close**
-    the **pop-up window** saying, ‘Welcome to the new Power Platform admin
+    the **pop-up window** if appears and says, ‘Welcome to the new Power Platform admin
     center’.
 
      ![](./media/image1.8.png)
