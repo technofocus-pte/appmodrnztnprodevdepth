@@ -13,7 +13,7 @@ Your first task is to create a partial template that won't be used to
 render a page but will instead be inserted into another template.
 
 1.  Sign in to Power Pages
-    +++**https://make.powerpages.microsoft.com/**+++.
+    +++**https://make.powerpages.microsoft.com/**+++. If your site is already open, you can skip Steps 1 through 3.
 
 2.  Select the target environment **Dev One** in the upper-right corner.
 
@@ -24,7 +24,7 @@ render a page but will instead be inserted into another template.
 
      ![](./media/image2.png)
 
-4.  expand the extension menu (ellipsis), and then select **Portal
+4.  Expand the extension menu (ellipsis), and then select **Portal
     management** to open the Portal Management app.
 
      ![](./media/image3.png)
@@ -38,6 +38,8 @@ render a page but will instead be inserted into another template.
      ![A screenshot of a web page Description automatically generated](./media/image5.png)
 
 7.  Enter the following values:
+
+    **Note**: Delete any extra characters that may appear after pasting the code.
 
     - **Name** - +++Directory+++
 
@@ -96,12 +98,14 @@ render a page but will instead be inserted into another template.
 Next, you'll create a new template that extends an existing Liquid
 template and then insert the template that you previously created.
 
-1.  From the left navigation pane, select **Web Templates**.
-    Select +**New**.
+1.  On the **Web Templates** page,
+    select **+New**.
 
      ![](./media/image8.png)
 
 2.  Enter the following values:
+
+    **Note**: Delete any extra characters that may appear after pasting the code.
 
     - **Name** - +++Directory Template+++
 
@@ -160,10 +164,7 @@ template and will include the Directory output.
 
     - **Table Name** - Select **Web Page**
 
-3.  **Optional:** Add a text element to the page content and then enter
-    text of your choice.
-
-4.  Select **Save & Close**.
+3.  Select **Save & Close**.
 
      ![A screenshot of a web page Description automatically generated](./media/image12.png)
 
@@ -181,7 +182,11 @@ Your next step is to test that your new template works:
 
      ![A screenshot of a computer Description automatically generated](./media/image14.png)
 
-4.  In the **Add a page** dialog, complete the following steps:
+4.  When prompted with the **Describe a page to design it** window, click on **Other ways to add a page**.
+
+   ![A screenshot of a computer Description automatically generated](./media/image5.2.png)
+   
+6.  In the **Add a page** dialog, complete the following steps:
 
     a.  Enter +++**Directory**+++ as the page name.
 
@@ -210,7 +215,7 @@ including appropriate filters in your views or FetchXML expressions.
 
 Follow these steps to add table permissions.
 
-1.  Select **Security workspace** and then select **Table Permissions**.
+1.  If you've already completed Lab 7, you may skip Task 5 entirely. If not, Select **Security workspace** and then select **Table Permissions**.
 
      ![A screenshot of a computer security Description automatically generated](./media/image17.png)
 
