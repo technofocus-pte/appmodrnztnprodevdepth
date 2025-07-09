@@ -44,13 +44,17 @@ a page to render data from Microsoft Dataverse as a chart.
     Advisor profile and Advisor contact pages are selected and then
     select **Done** to complete the site creation.
 
-     **Note:** If you copilot generates different pages for your site than the above mentioned pages then you can select some of them.
+     **Note 1:** If you copilot generates different pages for your site than the above mentioned pages then you can select some of them.
+
+     **Note 2**: IF you get any error at this point then refresh the page and select **Edit** under **Active sites** from the Home page of **Power Pages** portal.
 
      ![](./media/image6.png)
 
 7.  Site creation can take a few minutes. When finished, you're
     redirected to the site opened in the design studio that you can
     customize further.
+
+    **Note**: For the better view, you can close the pop-up windows if appear.
 
      ![A screenshot of a computer Description automatically generated](./media/image7.png)
 
@@ -160,15 +164,15 @@ To create table permissions, follow these steps.
 ### **Task 4: Test the Web API**
 
 1.  To test the Web API, open the following URL after adding your
-    website address
+    website address. To get the website address, select **Set up** from the left navigation pane, select **Site detals** and you can find url there.  
 
     +++https://**yourwebsite**.powerappsportals.com/_api/accounts?$select=name,numberofemployees,revenue+++
 
-3.  IF permission requested dialog appears, select **Accept**.
+2.  If permission requested dialog appears, select **Accept**.
 
      ![A screenshot of a application Description automatically generated](./media/image21.png)
 
-4.  Your output should resemble the following image.
+3.  Your output should resemble the following image.
 
      ![A screenshot of a computer Description automatically generated](./media/image22.png)
 
@@ -177,45 +181,50 @@ To create table permissions, follow these steps.
 To create a content page and add JavaScript code that retrieves and
 transforms the data, follow these steps:
 
-1.  In design studio, select the **Pages** workspace then select **+
-    Page**.
+1.  In design studio, select the **Pages** workspace then select **+Page**.
 
      ![](./media/image23.png)
 
-2.  Enter +++**Chart**+++ as the **Page name**.
+2.  On the **Describe a page to design it** window, select **Other ways to add a page** option.
 
-3.  Make sure that the **Add page to main navigation** option is
+     ![A screenshot of a computer Description automatically generated](./media/image5.2.png)
+
+3. Enter +++**Chart**+++ as the **Page name**.
+
+4.  Make sure that the **Add page to main navigation** option is
     selected.
 
-4.  Select the **Start from blank** layout.
+5.  Select the **Start from blank** layout.
 
-5.  Select **Add**.
+6.  Select **Add**.
 
      ![A screenshot of a computer Description automatically generated](./media/image24.png)
 
-6.  Select **Edit code**.
+7.  Select **Edit code**.
 
      ![](./media/image25.png)
 
-7.  In the pop-up dialog, select **Open Visual Studio Code**.
+8.  In the pop-up dialog, select **Open Visual Studio Code**.
 
      ![A screenshot of a computer Description automatically generated](./media/image26.png)
 
-8.  If pop-up appears and ask you to allow the extension Power Platform
+9.  If pop-up appears and ask you to allow the extension Power Platform
     tool to sign in using Microsoft, select **Allow**.
 
      ![A black screen with white text Description automatically generated](./media/image27.png)
 
-9.  It will fetch your data.
+10.  It will fetch your data.
 
      ![A screenshot of a computer Description automatically generated](./media/image28.png)
 
-10. In the Visual Studio Code editor, select
+11. In the Visual Studio Code editor, select
     the **Chart.en-US.customjs.js** file.
 
      ![A screenshot of a computer Description automatically generated](./media/image29.png)
 
-11. Append the following script:
+12. Append the following script:
+
+    **Note**: You can copy the script into Notepad on your VM, then paste it from there into Visual Studio Code.
 
     ```
 
@@ -272,7 +281,7 @@ transforms the data, follow these steps:
 
      ![A screenshot of a computer Description automatically generated](./media/image32.png)
 
-16. When the page is displayed, press the **F12** key to display browser
+16. When the page is displayed, press the **CTRL + SHIFT + I** key to display browser
     developer tools.
 
      ![A screenshot of a computer Description automatically generated](./media/image33.png)
@@ -283,13 +292,11 @@ transforms the data, follow these steps:
 
      ![A screenshot of a computer Description automatically generated](./media/image35.png)
 
-18. Verify that the console output contains the same data as previously
-    retrieved, except that it's now showing as transformed.
+18. Verify that the console output contains the same data as previously retrieved, except that it's now showing as transformed. 
 
      ![A screenshot of a computer program Description automatically generated](./media/image36.png)
 
-19. The data structure is now prepared for plotting. Assign the
-    appropriate labels to data points:
+19. The data structure is now prepared for plotting. 
 
     - **name** - Company name
 
@@ -310,7 +317,7 @@ transforms the data, follow these steps:
 This exercise uses Highcharts.js library (free for personal or
 non-profit use) to create a bubble chart based on the data.
 
-1.  Switch to design studio.
+1.  Switch to the design studio.
 
      ![A screenshot of a computer Description automatically generated](./media/image37.png)
 
@@ -336,7 +343,8 @@ non-profit use) to create a bubble chart based on the data.
 5.  Press the **Ctrl + S** keyboard shortcut (**⌘ + S** on Mac) to save
     the file.
 
-6.  Close the **Visual Studio Code** tab.
+6.  Close the **Visual Studio Code** tab then select **Sync** to
+    synchronize the changes on the design studio.
 
 7.  Select **Edit code** on the toolbar to open Visual Studio Code for
     the page.
@@ -354,8 +362,10 @@ non-profit use) to create a bubble chart based on the data.
 
 10. Replace the file to change the **makeChart** function as follows:
 
-     **Note:** Here, replacing the file means your modifying the existing file only.
-    
+    **Note 1**: Here, replacing the file means you are modifying the existing file only.
+
+    **Note 2**: You can copy the script into Notepad on your VM, then paste it from there into Visual Studio Code.
+
     ```    
 
      function makeChart(data) {
@@ -459,7 +469,9 @@ non-profit use) to create a bubble chart based on the data.
 
      ![A screenshot of a computer program Description automatically generated](./media/image44.png)
 
-13. Insert the following code into the inner <div> element:
+13. Insert the following code into the inner 'div' element:
+
+    **Note 2**: You can copy the script into Notepad on your VM, then paste it from there into Visual Studio Code.
 
     ```
 
@@ -471,19 +483,21 @@ non-profit use) to create a bubble chart based on the data.
 
      ![A screen shot of a computer Description automatically generated](./media/image45.png)
 
-15. Press the **Ctrl + S** keyboard shortcut (**⌘ + S** on Mac) to save
-    the file.
+14. Press the **Ctrl + S** keyboard shortcut (**⌘ + S** on Mac) to save
+    the file. If you get an error message that says failed to save and asks you to compare or overwrite the content of the file with the new changes then slelct **Overwrite**.
 
-16. Close the **Visual Studio Code** tab then select **Sync** to
+    ![A screenshot of a computer Description automatically generated](./media/image6.14.png)
+
+15. Close the **Visual Studio Code** tab then select **Sync** to
     synchronize the changes.
 
      ![A screenshot of a computer Description automatically generated](./media/image46.png)
 
-17. Select **Preview | Desktop**.
+16. Select **Preview | Desktop**.
 
      ![A screenshot of a computer Description automatically generated](./media/image47.png)
 
-18. The output should now include the bubble chart. Hover your cursor
+17. The output should now include the bubble chart. Hover your cursor
     over the bubbles to verify the data.
 
      ![A screenshot of a search engine Description automatically generated](./media/image48.png)
