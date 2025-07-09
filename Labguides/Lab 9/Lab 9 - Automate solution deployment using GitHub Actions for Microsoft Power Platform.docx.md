@@ -5,6 +5,22 @@
 1.  Sign in to the Microsoft Azure portal
     using +++**https://portal.azure.com/#home**+++ with your Office 365 tenant
     credentials.
+    
+    **Note**: You will be asked to perform **Multifactor authentication**. Follow the steps given below.
+
+       a. Select **Sign-in with MFA**.
+
+       ![A screenshot of a computer Description automatically generated](./media/image1.1.1.png)
+
+       b. Select **Next** on **Let’s keep your account secure** window.
+
+       ![A screenshot of a computer Description automatically generated](./media/image1.1.2.png)
+
+       c. Download the **Microsoft Authenticator** app on you phone and then select **Next**.
+
+       ![A screenshot of a computer Description automatically generated](./media/image1.1.3.png)
+
+       d. Follow the on-screen prompts to complete authentication and get signed into the Azure portal.
 
 2.  Select **Get started**.
 
