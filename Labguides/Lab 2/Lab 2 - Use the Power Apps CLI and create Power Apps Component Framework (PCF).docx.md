@@ -70,7 +70,7 @@ component.
      ![](./media/image12.png)
 
 10. In the Power Apps session details dialog, select **Instance
-    url** value and copy it for use later in the exercise.
+    url** value and copy the url and paste it into Notepad on the VM for later use in the exercise.
 
      ![A screenshot of a computer Description automatically generated](./media/image13.png)
 
