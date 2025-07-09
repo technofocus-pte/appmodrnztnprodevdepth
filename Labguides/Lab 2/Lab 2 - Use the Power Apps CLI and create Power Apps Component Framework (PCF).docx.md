@@ -18,10 +18,12 @@ component.
 
      ![A screenshot of a computer Description automatically generated](./media/image2.png)
 
-3.  Wait till the installation is complete.
+3.  Wait till the installation is complete. After installation, if the propmt appears and asks you that the extension 'Power Platform Tool' wants to sign in using Microsoft then select **Allow**.
 
      ![A screenshot of a computer Description automatically generated](./media/image3.png)
 
+     ![A screenshot of a computer Description automatically generated](./media/image1.3.png)
+    
 4.  Select **more option (…),** **Terminal** and then select **New
     Terminal**.
 
