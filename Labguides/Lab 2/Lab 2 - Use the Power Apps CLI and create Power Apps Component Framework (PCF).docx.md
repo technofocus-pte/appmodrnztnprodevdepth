@@ -243,8 +243,6 @@ component.
 
 2.  Close the welcome window if appears.
 
-     ![](./media/image40.png)
-
 3.  From the left navigation pane, select **Manage** > **Environments** and then select the **Dev One** environment you're using for the lab.
 
      ![](./media/image3.3.png)
