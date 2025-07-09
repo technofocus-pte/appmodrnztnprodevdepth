@@ -76,7 +76,7 @@ component.
     command to establish a connection from the CLI and sign into your
     test environment when prompted.
 
-     +++pac auth create --name Lab --url **<Your Instance URL>**+++
+     +++pac auth create --name Lab --environment **<Paste your Instance URL>**
 
      ![](./media/image14.png)
 
@@ -132,10 +132,7 @@ component.
 
      ![](./media/image23.png)
 
-6.  If you are asked to update the npm, use the given command as shown
-    in the below image. In this case, npm install -g npm@10.8.2 is used.
-
-     ![](./media/image24.png)
+6.  If you are asked to update the npm, you can ignore the message. 
 
 7.  Open the folder in Visual Studio Code using the following command.
 
@@ -244,30 +241,30 @@ component.
 1.  Navigate to the Microsoft Power Platform Admin Center using
     +++**https://admin.powerplatform.microsoft.com/home**+++.
 
-2.  Close the welcome window.
+2.  Close the welcome window if appears.
 
      ![](./media/image40.png)
 
-3.  Select the **Dev One** environment you're using for the lab.
+3.  From the left navigation pane, select **Manage** > **Environments** and then select the **Dev One** environment you're using for the lab.
 
-     ![](./media/image41.png)
+     ![](./media/image3.3.png)
 
 4.  Select **Settings**.
 
-     ![A screenshot of a computer Description automatically generated](./media/image42.png)
+     ![A screenshot of a computer Description automatically generated](./media/image3.4.png)
 
 5.  Expand **Product** area and select **Features**.
 
-     ![A screenshot of a computer Description automatically generated](./media/image43.png)
+     ![A screenshot of a computer Description automatically generated](./media/image3.5.png)
 
 6.  On the right side, enable the **Allow publishing of canvas apps with
     code components** feature.
 
-     ![A screenshot of a computer Description automatically generated](./media/image44.png)
+     ![A screenshot of a computer Description automatically generated](./media/image3.6.png)
 
 7.  Select **Save** at the bottom.
 
-     ![](./media/image45.png)
+     ![](./media/image3.7.png)
 
 8.  Navigate to Power Apps maker
     portal using
@@ -334,7 +331,7 @@ component.
 
 21. Select the **Code** tab.
 
-     ![A screenshot of a computer Description automatically generated](./media/image59.png)
+     ![A screenshot of a computer Description automatically generated](./media/image3.21.png)
 
 22. Select your component – **FirstControl**. Select **Import**.
 
