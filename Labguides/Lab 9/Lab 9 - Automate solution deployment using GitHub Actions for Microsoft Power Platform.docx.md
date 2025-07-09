@@ -36,9 +36,9 @@
 8.  On the **App registrations** page, enter your application's
     registration information as described in the table.
 
-    **Name** - +++Mytestingapp+++
+    **Name** - +++**Mytestingapp**+++
 
-    **Supported account types** - Select the Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) option.
+    **Supported account types** - Select the **Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant)** option.
 
      ![A screenshot of a computer application Description automatically generated](./media/image7.png)
 
@@ -47,7 +47,7 @@
      ![A screenshot of a computer Description automatically generated](./media/image8.png)
 
 11. The app registration overview page is shown. Add a client secret by
-    selecting the **Certificates & secrets** in the left navigation
+    selecting the **Certificates & secrets** undert the **Manage** in the left navigation
     pane. Select **Client secrets** tab and then select **+New client
     secret**.
 
@@ -76,20 +76,20 @@ registration.
     center +++**https://admin.powerplatform.microsoft.com/**+++ using your
     Office 365 tenant credentials.
 
-2.  Select **Environments** in the left navigation pane, and then select
+2.  Select **Manage** > **Environments** from the left navigation pane, and then select
     the **Dev One** environment in the list to display the environment
     information.
 
-     ![](./media/image12.png)
+     ![](./media/image2.1.png)
 
 3.  Select the **See all** link under **S2S apps** on the right side of
     the page.
 
-     ![A screenshot of a computer Description automatically generated](./media/image13.png)
+     ![A screenshot of a computer Description automatically generated](./media/image2.3.png)
 
 4.  Select + **New app user**.
 
-     ![](./media/image14.png)
+     ![](./media/image2.4.png)
 
 5.  On the **Create a new app user** slide-out, select **+ Add an app**.
 
@@ -101,8 +101,7 @@ registration.
 
      ![](./media/image16.png)
 
-7.  Back on the **Create a new app user** slide-out, select the
-    target **Business unit** from the drop-down. Select **pencil icon**
+7.  Back on the **Create a new app user** slide-out, in the **Business unit** field, start typing org and then select the Business unit from the suggestion. Select **pencil icon**
     in front of **Security roles**, select **System Administrator** for
     the app user (also known as a service principle) and
     select **Save.** 
@@ -111,12 +110,12 @@ registration.
 
 8.  Select **Create**.
 
-     ![A screenshot of a computer Description automatically generated](./media/image18.png)
+     ![A screenshot of a computer Description automatically generated](./media/image2.8.png)
 
 9.  You should see your new application user in the displayed list of
     application users.
 
-     ![A screenshot of a computer Description automatically generated](./media/image19.png)
+     ![A screenshot of a computer Description automatically generated](./media/image2.9.png)
 
 ### **Task 3: Build a model-driven app**
 
@@ -127,7 +126,7 @@ Follow the steps below to build a model-driven app.
     sign in with your credentials. Click the environment selector
     dropdown in the header and select your development environment - **Dev One**.
 
-     ![](./media/image20.png)
+     ![](./media/image3.1.png)
 
 2.  Click the **Solutions** area in the left navigation, and then click
     the **New solution** button to create a new solution.
@@ -145,25 +144,25 @@ Follow the steps below to build a model-driven app.
 
      ![A screenshot of a computer Description automatically generated](./media/image23.png)
 
-5.  On the new solution panel, select the **publisher – GitHub Lab**
-    that you just created and click **Create** to create a new unmanaged
+5.  On the new solution panel, the **publisher – GitHub Lab** is already selected
+    Click on **Create** to create a new unmanaged
     solution in the environment.
 
      ![A screenshot of a computer Description automatically generated](./media/image24.png)
 
 6.  Your new solution will be empty, and you need to add components to
     it. In this lab we will create a custom table. Click the **+
-    New** dropdown from the top navigation and select **Table \> Set
-    advanced properties.**
+    New** dropdown from the top navigation and select **Table** > **Table(
+    (advanced properties)**.
 
-     ![](./media/image25.png)
+     ![](./media/image3.6.png)
 
-7.  Enter a **display name** – +++**Time Off Request**+++, plural name will be
+7.  Enter a **Display name** – +++**Time Off Request**+++, plural name will be
     generated for you. Click **Save** to create the table.
 
      ![](./media/image26.png)
 
-8.  Once your table is created, select the Table from breadcrumb
+8.  Once your table is created, select the **Table** from breadcrumb
     navigation to go back to the solution view to add another component.
 
      ![](./media/image27.png)
@@ -318,9 +317,9 @@ The client secret is now securely stored as a GitHub secret.
 
      ![Rename and replace content.](./media/image55.png)
 
-     To get Environment URL, go to **Power Platform Admin center**. Select **Environments** from left navigation, click on **Dev One** and then copy Environment URL.
+     To get the Environment URL, go to **Power Platform Admin center**. Select **Manage** > **Environments** from left navigation, click on **Dev One** and then copy Environment URL.
 
-     ![](./media/image56.png)
+     ![](./media/image6.6.png)
 
 7.  **Paste** the **Environment URL** in the yml file. Make sure you add
     https://. Your URL should be in the given format -
