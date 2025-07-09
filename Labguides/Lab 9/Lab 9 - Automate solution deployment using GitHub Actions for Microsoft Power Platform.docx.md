@@ -1,5 +1,9 @@
 # **Lab 9: Automate solution deployment using GitHub Actions for Microsoft Power Platform**
 
+**Estimated Duration**: 30 min
+
+**Objective**: In this lab, you will learn how to use GitHub Actions for Microsoft Power Platform along with the available GitHub Actions to compose your build and release workflows.
+
 ### **Task 1: Create the app registration**
 
 1.  Sign in to the Microsoft Azure portal
@@ -465,3 +469,5 @@ The client secret is now securely stored as a GitHub secret.
     solution is now available there as well.
 
      ![A screenshot of a computer Description automatically generated](./media/image78.png)
+
+**Summary**: In this lab, you have learnt how to create an application registration within Microsoft Entra ID and to create a simple model-driven app to deploy using GitHub Actions for Microsoft Power Platform.
