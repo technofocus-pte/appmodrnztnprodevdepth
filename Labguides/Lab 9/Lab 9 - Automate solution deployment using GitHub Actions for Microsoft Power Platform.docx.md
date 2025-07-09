@@ -75,11 +75,8 @@
 
      ![A screenshot of a computer Description automatically generated](./media/image10.png)
 
-13. Save the **secret's value and ID** in the notepad for use in your
-    client application code. This secret value is never displayed
+13. You can find **secret's value and ID** here. This secret value is never displayed
     again after you leave this page.
-
-     **Important:** Do not navigate away from the client secret page until after you have copied the secret value (not the ID) as you'll not have access to the secret         value again.
 
      ![](./media/image11.png)
 
