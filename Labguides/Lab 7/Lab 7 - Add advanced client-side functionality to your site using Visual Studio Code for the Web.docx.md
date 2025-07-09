@@ -20,9 +20,9 @@ a page to render data from Microsoft Dataverse as a chart.
 3.  Enter the given description to create a site and then click on the
     **generate** icon.
 
- +++**Create a site for customers to find financial advisors at a bank based on their qualifications, and areas of expertise**+++
+ +++**Create a site for customers to find financial advisors at a bank based on their qualifications, and areas of expertise**+++ 
 
-     ![A screenshot of a computer Description automatically generated](./media/image3.png)
+   ![A screenshot of a computer Description automatically generated](./media/image3.png)
 
 4.  Copilot generates a site name and a web address based on your
     description. In this case, the site name is ‘**Finance Advisor
