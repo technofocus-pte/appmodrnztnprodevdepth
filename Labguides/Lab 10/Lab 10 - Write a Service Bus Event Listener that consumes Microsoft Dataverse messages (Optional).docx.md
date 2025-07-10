@@ -32,7 +32,7 @@ following steps.
 6.  Enter the appropriate details for your namespace as given below and
     then select **Next**.
 
-     **Namespace name**: Mytestinglab
+     **Namespace name**: Mytestinglab (If you get an error for this name then enter another unique name)
     
      **Location**: West Central US
     
@@ -117,7 +117,7 @@ publishing of your Dataverse data to your Service Bus.
     this message because it's become an industry standard messaging
     format because of its portability and lightweight nature. Lastly, to
     have your user information sent to your queue, you can
-    select **UserId** in the **User Information Sent** drop-down list.
+    select **UserId** in the **User Information Sent** drop-down list and then select **Save**.
 
      ![A screenshot of a computer Description automatically generated](./media/image17.png)
 
@@ -134,14 +134,14 @@ processed by Dataverse to be sent on the Service Bus to the Azure queue.
 
      ![A screenshot of a computer Description automatically generated](./media/image18.png)
 
-2.  Enter the following details to register a new integration step that
-    is started on creation of an account row. Make sure that you clear
+2.  Enter the given details to register a new integration step that
+    is started on creation of an account row. Start typing **Create** for **Message** field and **account** for **Primary** **Entity** and then you can also select it from the suggestions.  Select **Execution Mode** – **Asynchronous**. Make sure that you clear
     the **Delete AsyncOperation if StatusCode = Successful** flag.
     Clearing this flag is only for testing purposes so you can verify
     that the created System Job rows show that the Service Bus
     integration step has successfully started on creation of an account
     row. In a real-world production scenario, we recommend that you
-    leave this value selected.
+    leave this value selected. Select **Register New Step**.
 
      ![A screenshot of a computer Description automatically generated](./media/image19.png)
 
@@ -154,19 +154,21 @@ processed by Dataverse to be sent on the Service Bus to the Azure queue.
 
 Test your Service Bus integration with the following steps:
 
-1.  To test your Service Bus integration, go to Power Apps portal using !!https://make.powerapps.com/!!. Select **Dev One** environment, select **Tables** from the left navigation pane then click on **Account** table and under **Account Name** coulum, enter **Adventure Works Cycle**  create an account.
+1.  To test your Service Bus integration, go to the Power Apps portal using +++https://make.powerapps.com/+++. Select **Dev One** environment, select **Tables** from the left navigation pane then click on **Account** table and under **Account Name** coulum, enter **Adventure Works Cycle**  create an account.
 
     ![A screenshot of a computer Description automatically generated](./media/image4.1.1.png)
 
 2.  Now go to Power Platform admin center using
-    +++**https://admin.powerplatform.microsoft.com**+++. Select
-    your Dataverse environment – **Dev One**.
+    +++**https://admin.powerplatform.microsoft.com**+++. From the left navigation pane, select **Manage** > **Environments**
+    and then click on your Dataverse environment – **Dev One**.
 
-     ![A screenshot of a computer Description automatically generated](./media/image21.png)
+     ![A screenshot of a computer Description automatically generated](./media/image4.2.png)
 
-3.  Expand the **Audit and logs** section and **System jobs**.
+3.  Select Settings. Expand the **Audit and logs** section and **System jobs**.
 
-     ![](./media/image22.png)
+     ![](./media/image4.3.png)
+
+     ![](./media/image4.3.1.png)
 
 4.  Verify that your integration step ran successfully by viewing it in
     the **System Jobs** view. If it ran successfully, the **Status
